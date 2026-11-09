@@ -1,0 +1,88 @@
+{
+  "reviewedOn": "2026-11-03",
+  "configurations": 74,
+  "families": {
+    "AKE": 5,
+    "AK": 19,
+    "AKH": 2,
+    "AKA": 2,
+    "RI": 12,
+    "RI-PH": 6,
+    "RO": 8,
+    "GL II": 3,
+    "GL": 9,
+    "G": 8
+  },
+  "propulsionIndex": [
+    {
+      "model": "SW7",
+      "series": "SW",
+      "category": "水下推进器",
+      "url": "https://www.cubemars.com/product/sw7-underwater-thruster.html",
+      "reviewedAt": "2026-11-03"
+    },
+    {
+      "model": "SW12",
+      "series": "SW",
+      "category": "水下推进器",
+      "url": "https://www.cubemars.com/product/sw12-underwater-thruster.html",
+      "reviewedAt": "2026-11-03"
+    },
+    {
+      "model": "SW17",
+      "series": "SW",
+      "category": "水下推进器",
+      "url": "https://www.cubemars.com/product/sw17-underwater-thruster.html",
+      "reviewedAt": "2026-11-03"
+    },
+    {
+      "model": "DW10",
+      "series": "DW",
+      "category": "水下推进器",
+      "url": "https://www.cubemars.com/product/dw10-underwater-thruster.html",
+      "reviewedAt": "2026-11-03"
+    },
+    {
+      "model": "DW15",
+      "series": "DW",
+      "category": "水下推进器",
+      "url": "https://www.cubemars.com/product/dw15-underwater-thruster.html",
+      "reviewedAt": "2026-11-03"
+    },
+    {
+      "model": "DW20",
+      "series": "DW",
+      "category": "水下推进器",
+      "url": "https://www.cubemars.com/product/dw20-underwater-thruster.html",
+      "reviewedAt": "2026-11-03"
+    },
+    {
+      "model": "DW25",
+      "series": "DW",
+      "category": "水下推进器",
+      "url": "https://www.cubemars.com/product/dw25-underwater-thruster.html",
+      "reviewedAt": "2026-11-03"
+    },
+    {
+      "model": "W30 Underwater Thruster",
+      "series": "W",
+      "category": "水下推进器",
+      "url": "https://www.cubemars.com/product/w30-underwater-thruster.html",
+      "reviewedAt": "2026-11-03"
+    },
+    {
+      "model": "TW-80A-12S（2pcs/set）",
+      "series": "TW",
+      "category": "电子调速器",
+      "url": "https://www.cubemars.com/product/tw-80a-12s.html",
+      "reviewedAt": "2026-11-03"
+    },
+    {
+      "model": "TW-40A-12S（2pcs/set）",
+      "series": "TW",
+      "category": "电子调速器",
+      "url": "https://www.cubemars.com/product/tw-40a-12s.html",
+      "reviewedAt": "2026-11-03"
+    }
+  ]
+}

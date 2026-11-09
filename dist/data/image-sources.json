@@ -1,0 +1,338 @@
+{
+  "unitree-as2-w": {
+    "path": "assets/unitree-as2-w.png",
+    "imageUrl": "https://www.unitree.com/images/f7434125db244e79bdbe2e17ae3ab0ac_288x238.png",
+    "pageUrl": "https://www.unitree.com/mobile/As2-W",
+    "credit": "Unitree Robotics",
+    "caption": "原厂产品图；具体配置外观以来源为准",
+    "width": 288,
+    "height": 238
+  },
+  "unitree-as2": {
+    "path": "assets/unitree-as2.png",
+    "imageUrl": "https://www.unitree.com/images/fb7e8c4fa31944fc9e0c325a63b3e2ff_288x238.png",
+    "pageUrl": "https://www.unitree.com/mobile/As2",
+    "credit": "Unitree Robotics",
+    "caption": "原厂产品图；具体配置外观以来源为准",
+    "width": 288,
+    "height": 238
+  },
+  "unitree-go2-w": {
+    "path": "assets/unitree-go2-w.png",
+    "imageUrl": "https://www.unitree.com/images/cdd125a1e6064c5caf25dde9b7452f09_288x238.png",
+    "pageUrl": "https://www.unitree.com/mobile/go2-w",
+    "credit": "Unitree Robotics",
+    "caption": "原厂产品图；具体配置外观以来源为准",
+    "width": 288,
+    "height": 238
+  },
+  "unitree-go2": {
+    "path": "assets/unitree-go2.png",
+    "imageUrl": "https://www.unitree.com/images/dbe1ad7978234edbbdc81bed9850c0f8_288x238.png",
+    "pageUrl": "https://www.unitree.com/mobile/go2",
+    "credit": "Unitree Robotics",
+    "caption": "原厂产品图；具体配置外观以来源为准",
+    "width": 288,
+    "height": 238
+  },
+  "unitree-go1": {
+    "path": "assets/unitree-go1.png",
+    "imageUrl": "https://oss-global-cdn.unitree.com/static/0b8c931da577438da7d94cfb28a927a8_288x238.png",
+    "pageUrl": "https://www.unitree.com/mobile/go1",
+    "credit": "Unitree Robotics",
+    "caption": "原厂产品图；具体配置外观以来源为准",
+    "width": 288,
+    "height": 238
+  },
+  "unitree-a1": {
+    "path": "assets/unitree-a1.png",
+    "imageUrl": "https://oss-global-cdn.unitree.com/static/52d3d0791e4f4b3591f43e8b8e5581f7_288x238.png",
+    "pageUrl": "https://www.unitree.com/mobile/A1",
+    "credit": "Unitree Robotics",
+    "caption": "原厂产品图；具体配置外观以来源为准",
+    "width": 288,
+    "height": 238
+  },
+  "unitree-benben": {
+    "path": "assets/unitree-benben.png",
+    "imageUrl": "https://oss-global-cdn.unitree.com/static/ba3d1d11462849dc8bbe0d2de5815cb7_288x238.png",
+    "pageUrl": "https://www.unitree.com/mobile/benben",
+    "credit": "Unitree Robotics",
+    "caption": "原厂产品图；具体配置外观以来源为准",
+    "width": 288,
+    "height": 238
+  },
+  "unitree-a2-w": {
+    "path": "assets/unitree-a2-w.png",
+    "imageUrl": "https://www.unitree.com/images/13958fa26af942f8947c26f8198f08f3_288x238.png",
+    "pageUrl": "https://www.unitree.com/mobile/A2-W",
+    "credit": "Unitree Robotics",
+    "caption": "原厂产品图；具体配置外观以来源为准",
+    "width": 288,
+    "height": 238
+  },
+  "unitree-a2": {
+    "path": "assets/unitree-a2.png",
+    "imageUrl": "https://www.unitree.com/images/0145a4afa19c4b6eaa66d5824dbb0f32_288x238.png",
+    "pageUrl": "https://www.unitree.com/mobile/A2",
+    "credit": "Unitree Robotics",
+    "caption": "原厂产品图；具体配置外观以来源为准",
+    "width": 288,
+    "height": 238
+  },
+  "unitree-b2-w": {
+    "path": "assets/unitree-b2-w.png",
+    "imageUrl": "https://oss-global-cdn.unitree.com/static/d9db4497bfbf43848e72453c85e99aa1_288x238.png",
+    "pageUrl": "https://www.unitree.com/mobile/b2-w",
+    "credit": "Unitree Robotics",
+    "caption": "原厂产品图；具体配置外观以来源为准",
+    "width": 288,
+    "height": 238
+  },
+  "unitree-b2": {
+    "path": "assets/unitree-b2.png",
+    "imageUrl": "https://www.unitree.com/images/5a6185c21eef4e1f982c8dcc6df2c55c_288x238.png",
+    "pageUrl": "https://www.unitree.com/mobile/b2",
+    "credit": "Unitree Robotics",
+    "caption": "原厂产品图；具体配置外观以来源为准",
+    "width": 288,
+    "height": 238
+  },
+  "unitree-b2-ex": {
+    "path": "assets/unitree-b2-ex.png",
+    "imageUrl": "https://www.unitree.com/images/7e4bdf303a324d429e498095fc7a1176_576x476.png",
+    "pageUrl": "https://www.unitree.com/mobile/B2-Ex",
+    "credit": "Unitree Robotics",
+    "caption": "原厂产品图；具体配置外观以来源为准",
+    "width": 576,
+    "height": 476
+  },
+  "unitree-b1": {
+    "path": "assets/unitree-b1.png",
+    "imageUrl": "https://oss-global-cdn.unitree.com/static/dbb57b34f6064bed8bb1b1a4ed46bbe6_288x238.png",
+    "pageUrl": "https://www.unitree.com/mobile/b1",
+    "credit": "Unitree Robotics",
+    "caption": "原厂产品图；具体配置外观以来源为准",
+    "width": 288,
+    "height": 238
+  },
+  "unitree-aliengo": {
+    "path": "assets/unitree-aliengo.png",
+    "imageUrl": "https://oss-global-cdn.unitree.com/static/32bf9e6302b84112b6dc787a67bf75d3_288x238.png",
+    "pageUrl": "https://www.unitree.com/mobile/aliengo",
+    "credit": "Unitree Robotics",
+    "caption": "原厂产品图；具体配置外观以来源为准",
+    "width": 288,
+    "height": 238
+  },
+  "spot": {
+    "path": "assets/spot.png",
+    "imageUrl": "https://bostondynamics.com/wp-content/uploads/2023/06/spot-section.png",
+    "pageUrl": "https://bostondynamics.com/products/spot/",
+    "credit": "Boston Dynamics",
+    "caption": "Spot 产品参考图，附件及硬件修订版可能不同",
+    "width": 1841,
+    "height": 1523
+  },
+  "mini-cheetah": {
+    "path": "assets/mini-cheetah.jpg",
+    "imageUrl": "https://biomimetics.mit.edu/static/carousel_1-e9b9c70b233760e361581e27d94c8b5e.jpg",
+    "pageUrl": "https://biomimetics.mit.edu/",
+    "credit": "MIT Biomimetic Robotics Lab",
+    "caption": "MIT Mini Cheetah 研究平台",
+    "width": 1200,
+    "height": 800
+  },
+  "anymal": {
+    "path": "assets/anymal.jpg",
+    "imageUrl": "https://mas-mtec.ethz.ch/education/special-programmes/mas-plus/2022hs-anybotics/_jcr_content/par/fullwidthimage/image.imageformat.1286.1562221569.jpg",
+    "pageUrl": "https://mas-mtec.ethz.ch/education/special-programmes/mas-plus/2022hs-anybotics.html",
+    "credit": "ETH Zurich / ANYbotics",
+    "caption": "ANYmal工业产品参考图，不代表所有代际与上装配置",
+    "width": 1920,
+    "height": 960
+  },
+  "deep-lite3": {
+    "path": "assets/deep-lite3.jpg",
+    "imageUrl": "https://en.deeprobotics.cn/public/static/robot/demo/lite_01.jpg",
+    "pageUrl": "https://en.deeprobotics.cn/en/wap/product1.html",
+    "credit": "DEEP Robotics",
+    "caption": "原厂Lite3规格示意图；配置以记录为准",
+    "width": 800,
+    "height": 600
+  },
+  "deep-x20": {
+    "path": "assets/deep-x20.jpg",
+    "imageUrl": "https://en.deeprobotics.cn/public/static/robot/demo/p66.jpg",
+    "pageUrl": "https://en.deeprobotics.cn/en/wap/product.html",
+    "credit": "DEEP Robotics",
+    "caption": "原厂X20规格示意图",
+    "width": 800,
+    "height": 600
+  },
+  "deep-x30": {
+    "path": "assets/deep-x30.jpg",
+    "imageUrl": "https://en.deeprobotics.cn/public/static/robot/demo/x30.jpg",
+    "pageUrl": "https://en.deeprobotics.cn/en/wap/product3.html",
+    "credit": "DEEP Robotics",
+    "caption": "原厂X30规格示意图；标准及Pro外观可能不同",
+    "width": 800,
+    "height": 600
+  },
+  "deep-lynx": {
+    "path": "assets/deep-lynx.jpg",
+    "imageUrl": "https://en.deeprobotics.cn/public/static/robot/demo/p_cat.jpg",
+    "pageUrl": "https://en.deeprobotics.cn/en/index/deeproboticslynx.html",
+    "credit": "DEEP Robotics",
+    "caption": "原厂LYNX轮足产品示意图",
+    "width": 800,
+    "height": 600
+  },
+  "deep-m20": {
+    "path": "assets/deep-m20.jpg",
+    "imageUrl": "https://en.deeprobotics.cn/public/static/robot/demo/lynx.jpg",
+    "pageUrl": "https://en.deeprobotics.cn/en/index/lynx.html",
+    "credit": "DEEP Robotics",
+    "caption": "原厂LYNX M20家族示意图；S/Pro配置以参数记录为准",
+    "width": 800,
+    "height": 600
+  },
+  "vision60": {
+    "path": "assets/vision60.avif",
+    "imageUrl": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/680b31ef2dd2aca6776b71ce_nav%20vision.avif",
+    "pageUrl": "https://www.ghostrobotics.io/vision-60",
+    "credit": "Ghost Robotics",
+    "caption": "Vision60原厂产品参考图",
+    "width": 470,
+    "height": 262
+  },
+  "starleth": {
+    "path": "assets/starleth.jpg",
+    "imageUrl": "https://rsl.ethz.ch/robots-media/starleth/_jcr_content/par/fullwidthimage/image.imageformat.1286.135775135.jpg",
+    "pageUrl": "https://rsl.ethz.ch/robots-media/starleth.html",
+    "credit": "ETH Zurich Robotic Systems Lab",
+    "caption": "StarlETH实验平台",
+    "width": 2572,
+    "height": 3636
+  },
+  "hyqreal": {
+    "path": "assets/hyqreal.jpg",
+    "imageUrl": "https://opentalk.iit.it/wp-content/uploads/2023/06/Hyq-Real-Foto_14146.jpg",
+    "pageUrl": "https://opentalk.iit.it/debutto-di-hyqreal-il-robot-riesce-a-trainare-un-aereo/",
+    "credit": "IIT",
+    "caption": "HyQReal官方发布照片",
+    "width": 537,
+    "height": 286
+  },
+  "solo12": {
+    "path": "assets/solo12.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/master/mechanics/quadruped_robot_12dof_v1/images/solo12_8.jpg",
+    "pageUrl": "https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/tree/master/mechanics/quadruped_robot_12dof_v1",
+    "credit": "Open Dynamic Robot Initiative",
+    "caption": "Solo12 v1开源硬件照片",
+    "width": 2805,
+    "height": 1895
+  },
+  "unitree-laikago": {
+    "path": "assets/unitree-laikago.png",
+    "imageUrl": "https://www.unitree.com/images/8edd57fa57c24981b499d5d97b634ec1_1600x1200.png",
+    "pageUrl": "https://www.unitree.com/cn/about/",
+    "credit": "Unitree Robotics",
+    "caption": "Laikago早期家族图，Pro配置外观以历史资料为准",
+    "width": 1600,
+    "height": 1200
+  },
+  "spot-full": {
+    "path": "assets/spot-full.jpg",
+    "imageUrl": "https://support.bostondynamics.com/s/spot/sfsites/c/cms/delivery/media/MCDJ2UNAO5FJEYXIBBPSM4O25AIM",
+    "pageUrl": "https://bostondynamics.com/products/spot/",
+    "credit": "Boston Dynamics",
+    "caption": "Spot产品参考图；上装及硬件修订版可能不同",
+    "width": 600,
+    "height": 400
+  },
+  "barry": {
+    "path": "assets/barry.gif",
+    "imageUrl": "https://spectrum.ieee.org/media-library/an-animated-gif-showing-a-human-riding-on-top-of-a-small-quadrupedal-robot-on-a-grassy-field.gif?id=50789945&width=1200&height=724",
+    "pageUrl": "https://spectrum.ieee.org/quadruped-robot-dog",
+    "credit": "ETH Zurich / IEEE Spectrum",
+    "caption": "Barry平台负载实验，具体实验条件以论文为准",
+    "width": 669,
+    "height": 404
+  },
+  "anymal-d": {
+    "path": "assets/anymal-d.png",
+    "imageUrl": "https://www.adeptor.no/Media/Cache/Images/3/3/WEB_Image_ANYmal_D_-_Robotic_Inspection_Platform_F_anymal-d-legged-robot-walking-no-shadow1429422359_plid_36493.png",
+    "pageUrl": "https://www.adeptor.no/anybotics/anymal-d/anymal-d-robotic-inspection-platform-four-legged-robotic-platform",
+    "credit": "ANYbotics / Adeptor",
+    "caption": "ANYmal D巡检配置图，含上装；表内裸平台质量不含全部附件",
+    "width": 610,
+    "height": 450
+  },
+  "anymal-x": {
+    "path": "assets/anymal-x.jpg",
+    "imageUrl": "https://www.greaterzuricharea.com/sites/default/files/2022-10/Wartungsroboter%20von%20ANYbotics%20ist%20ab%20sofort%20bestellbar_0.jpg",
+    "pageUrl": "https://www.greaterzuricharea.com/en/news/anybotics-maintenance-robot-now-available-order",
+    "credit": "ANYbotics / Greater Zurich Area",
+    "caption": "2022年ANYmal X产品图；不能据图确认2026交付版的参数",
+    "width": 1024,
+    "height": 683
+  },
+  "kyon-wheel": {
+    "path": "assets/kyon-wheel.jpg",
+    "pageUrl": "https://arxiv.org/html/2606.30243v2",
+    "credit": "IIT / KYON论文作者",
+    "caption": "KYON论文Fig.1，轮模块与双臂配置",
+    "source": "P11"
+  },
+  "kyon-foot": {
+    "path": "assets/kyon-foot.jpg",
+    "pageUrl": "https://arxiv.org/html/2606.30243v2",
+    "credit": "IIT / KYON论文作者",
+    "caption": "KYON论文Fig.1，足模块与双臂配置",
+    "source": "P11"
+  },
+  "cheetah3": {
+    "path": "assets/cheetah3.jpg",
+    "pageUrl": "https://dspace.mit.edu/entities/publication/b77b4b14-6d3d-43c0-899e-e85ddbba2a8f",
+    "credit": "MIT Biomimetic Robotics Lab",
+    "caption": "Cheetah 3原始设计论文图像",
+    "source": "P01"
+  },
+  "solo8": {
+    "path": "assets/solo8.png",
+    "pageUrl": "https://arxiv.org/abs/1910.00093",
+    "credit": "Open Dynamic Robot Initiative / 论文作者",
+    "caption": "Solo 8论文图像，包含跳跃实验与结构示意",
+    "source": "P09"
+  },
+  "hyq": {
+    "path": "assets/hyq.jpg",
+    "pageUrl": "https://iit-dlslab.github.io/papers/tmech16semini.pdf",
+    "credit": "IIT / HyQ2Max论文作者",
+    "caption": "论文中的HyQ平台，用于对应历史系统对照",
+    "source": "P13"
+  },
+  "hyq2max": {
+    "path": "assets/hyq2max.jpg",
+    "pageUrl": "https://iit-dlslab.github.io/papers/tmech16semini.pdf",
+    "credit": "IIT / HyQ2Max论文作者",
+    "caption": "HyQ2Max设计论文中的平台图",
+    "source": "P13"
+  },
+  "anymal-early": {
+    "path": "assets/anymal-early.jpg",
+    "pageUrl": "https://www.markobjelonic.com/publications/files/2017_advanced_robotics_hutter.pdf",
+    "credit": "ETH Zurich Robotic Systems Lab",
+    "caption": "早期ANYmal研究平台，2016–2017代际",
+    "source": "P07"
+  },
+  "wheeled-anymal": {
+    "path": "assets/wheeled-anymal.png",
+    "imageUrl": "https://dbellicoso.github.io/assets/pdf/bjelonic2019keep.pdf",
+    "pageUrl": "https://arxiv.org/abs/1809.03557",
+    "source": "P08",
+    "credit": "ETH Zurich / Keep Rollin’论文作者",
+    "caption": "2019年轮足ANYmal研究配置，原始论文Fig.1"
+  }
+}

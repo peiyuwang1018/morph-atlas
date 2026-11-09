@@ -1,0 +1,858 @@
+{
+  "schemaVersion": "1.0",
+  "reviewedOn": "2026-10-30",
+  "scope": "现有四板块的公司／品牌对外英文名称；不是法律主体登记或产品参数复核。",
+  "entries": [
+    {
+      "id": "genisom-ai",
+      "canonical": "智身科技",
+      "englishName": "GENISOM AI",
+      "aliases": [
+        "智身科技",
+        "GENISOM AI",
+        "Zhishen Technology",
+        "ZSibot"
+      ],
+      "evidenceUrl": "https://www.genisomai.com/en/aboutus.html",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed",
+      "notes": "官网英文 About Us 明确使用 GENISOM AI；旧音译只作检索别名，手册原件与引用保持原样。"
+    },
+    {
+      "id": "high-torque",
+      "canonical": "高擎机电 HIGH TORQUE",
+      "englishName": "HIGH TORQUE",
+      "aliases": [
+        "高擎动力 HIGH TORQUE",
+        "高擎机电 HIGH TORQUE",
+        "HIGH TORQUE"
+      ],
+      "evidenceUrl": "https://hightorque.cn/en/wp-content/uploads/2025/07/User-Manual.pdf",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed",
+      "notes": "官方手册使用 HIGH TORQUE 高擎机电；原库“高擎动力”为误记。"
+    },
+    {
+      "id": "damiao",
+      "canonical": "DAMIAO 达妙",
+      "englishName": "DAMIAO",
+      "aliases": [
+        "DAMIAO 达妙",
+        "DAMIAO"
+      ],
+      "evidenceUrl": "sources/DAMIAO_motor.pdf",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "manufacturer-manual",
+      "notes": "本次英文品牌以用户提供的厂商手册 DAMIAO 标识核查；官网域名尚未确认，不填推测网址。"
+    },
+    {
+      "id": "cubemars",
+      "canonical": "CubeMars",
+      "englishName": "CubeMars",
+      "aliases": [
+        "CubeMars",
+        "Cubemars"
+      ],
+      "evidenceUrl": "https://www.cubemars.com/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "robotis",
+      "canonical": "ROBOTIS DYNAMIXEL",
+      "englishName": "ROBOTIS DYNAMIXEL",
+      "aliases": [
+        "ROBOTIS DYNAMIXEL",
+        "ROBOTIS",
+        "DYNAMIXEL"
+      ],
+      "evidenceUrl": "https://robotis.com/en/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed",
+      "notes": "ROBOTIS 为公司，DYNAMIXEL 为产品家族；保留组合标签以说明所收录产品。"
+    },
+    {
+      "id": "unitree",
+      "canonical": "Unitree",
+      "englishName": "Unitree Robotics",
+      "aliases": [
+        "Unitree",
+        "Unitree 宇树",
+        "宇树科技 Unitree",
+        "Unitree Robotics"
+      ],
+      "evidenceUrl": "https://www.unitree.com/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed",
+      "notes": "跨四个板块统一身份；原记录别名保留，不合并产品配置。"
+    },
+    {
+      "id": "maxon",
+      "canonical": "maxon",
+      "englishName": "maxon",
+      "aliases": [
+        "maxon"
+      ],
+      "evidenceUrl": "https://www.maxongroup.com/en",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "tq-robodrive",
+      "canonical": "TQ-RoboDrive",
+      "englishName": "TQ-RoboDrive",
+      "aliases": [
+        "TQ-RoboDrive"
+      ],
+      "evidenceUrl": "https://www.tq-group.com/en/products/tq-robodrive/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "faulhaber",
+      "canonical": "FAULHABER",
+      "englishName": "FAULHABER",
+      "aliases": [
+        "FAULHABER"
+      ],
+      "evidenceUrl": "https://www.faulhaber.com/en/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "mab-robotics",
+      "canonical": "MAB Robotics",
+      "englishName": "MAB Robotics",
+      "aliases": [
+        "MAB Robotics"
+      ],
+      "evidenceUrl": "https://www.mabrobotics.pl/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "anybotics",
+      "canonical": "ANYbotics",
+      "englishName": "ANYbotics",
+      "aliases": [
+        "ANYbotics"
+      ],
+      "evidenceUrl": "https://www.anybotics.com/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "hebi-robotics",
+      "canonical": "HEBI Robotics",
+      "englishName": "HEBI Robotics",
+      "aliases": [
+        "HEBI Robotics"
+      ],
+      "evidenceUrl": "https://www.hebirobotics.com/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "deep-robotics",
+      "canonical": "DEEP Robotics",
+      "englishName": "DEEP Robotics",
+      "aliases": [
+        "DEEP Robotics"
+      ],
+      "evidenceUrl": "https://en.deeprobotics.cn/en/index/company.html",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "boston-dynamics",
+      "canonical": "Boston Dynamics",
+      "englishName": "Boston Dynamics",
+      "aliases": [
+        "Boston Dynamics"
+      ],
+      "evidenceUrl": "https://bostondynamics.com/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "ghost-robotics",
+      "canonical": "Ghost Robotics",
+      "englishName": "Ghost Robotics",
+      "aliases": [
+        "Ghost Robotics"
+      ],
+      "evidenceUrl": "https://www.ghostrobotics.io/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "inspire-robots",
+      "canonical": "INSPIRE ROBOTS 因时",
+      "englishName": "INSPIRE ROBOTS",
+      "aliases": [
+        "INSPIRE 因时",
+        "INSPIRE ROBOTS 因时",
+        "INSPIRE"
+      ],
+      "evidenceUrl": "https://en.inspire-robots.com/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "linkerbot",
+      "canonical": "Linkerbot 灵心巧手",
+      "englishName": "Linkerbot",
+      "aliases": [
+        "Linkerbot 灵心巧手",
+        "Linkerbot"
+      ],
+      "evidenceUrl": "https://www.linkerbot.cn/about/join/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "shadow-robot",
+      "canonical": "Shadow Robot",
+      "englishName": "Shadow Robot",
+      "aliases": [
+        "Shadow Robot"
+      ],
+      "evidenceUrl": "https://shadowrobot.com/dexterous-hand-series/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "paxini",
+      "canonical": "PaXini 帕西尼",
+      "englishName": "PaXini",
+      "aliases": [
+        "PaXini 帕西尼",
+        "PaXini"
+      ],
+      "evidenceUrl": "https://www.paxini.com/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "brainco",
+      "canonical": "BrainCo 强脑科技",
+      "englishName": "BrainCo",
+      "aliases": [
+        "BrainCo 强脑科技",
+        "BrainCo"
+      ],
+      "evidenceUrl": "https://brainco.tech/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "orca-dexterity",
+      "canonical": "ORCA Dexterity",
+      "englishName": "ORCA Dexterity",
+      "aliases": [
+        "ORCA Dexterity"
+      ],
+      "evidenceUrl": "https://www.orcahand.com/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "wonik-robotics",
+      "canonical": "Wonik Robotics",
+      "englishName": "Wonik Robotics",
+      "aliases": [
+        "Wonik Robotics"
+      ],
+      "evidenceUrl": "https://wonikrobotics.com/index.php",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "qbrobotics",
+      "canonical": "qbrobotics",
+      "englishName": "qbrobotics",
+      "aliases": [
+        "qbrobotics / Pisa–IIT SoftHand lineage",
+        "qbrobotics"
+      ],
+      "evidenceUrl": "https://qbrobotics.com/product/qb-softhand-research/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed",
+      "notes": "公司为 qbrobotics；Pisa–IIT SoftHand 为科研谱系，在型号说明及旧别名中保留，不作为公司名称。"
+    },
+    {
+      "id": "schunk",
+      "canonical": "SCHUNK",
+      "englishName": "SCHUNK",
+      "aliases": [
+        "SCHUNK"
+      ],
+      "evidenceUrl": "https://schunk.com/us/en",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "barrett",
+      "canonical": "Barrett Technology",
+      "englishName": "Barrett Technology",
+      "aliases": [
+        "Barrett Technology"
+      ],
+      "evidenceUrl": "https://barrett.com/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "agility-robotics",
+      "canonical": "Agility Robotics",
+      "englishName": "Agility Robotics",
+      "aliases": [
+        "Agility Robotics"
+      ],
+      "evidenceUrl": "https://www.agilityrobotics.com/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "booster-robotics",
+      "canonical": "Booster Robotics 加速进化",
+      "englishName": "Booster Robotics",
+      "aliases": [
+        "Booster Robotics 加速进化",
+        "Booster Robotics"
+      ],
+      "evidenceUrl": "https://www.booster.tech/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "fourier",
+      "canonical": "Fourier 傅利叶",
+      "englishName": "Fourier",
+      "aliases": [
+        "Fourier 傅利叶",
+        "Fourier"
+      ],
+      "evidenceUrl": "https://www.fftai.com/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "hexagon-robotics",
+      "canonical": "Hexagon Robotics",
+      "englishName": "Hexagon Robotics",
+      "aliases": [
+        "Hexagon Robotics"
+      ],
+      "evidenceUrl": "https://robotics.hexagon.com/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "agibot",
+      "canonical": "AGIBOT 智元",
+      "englishName": "AGIBOT",
+      "aliases": [
+        "AGIBOT 智元",
+        "AGIBOT"
+      ],
+      "evidenceUrl": "https://www.agibot.com/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "ubtech",
+      "canonical": "UBTECH 优必选",
+      "englishName": "UBTECH",
+      "aliases": [
+        "UBTECH 优必选",
+        "UBTECH"
+      ],
+      "evidenceUrl": "https://www.ubtrobot.com/en/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "engineai",
+      "canonical": "ENGINEAI 众擎",
+      "englishName": "ENGINEAI",
+      "aliases": [
+        "ENGINEAI 众擎",
+        "ENGINEAI",
+        "EngineAI"
+      ],
+      "evidenceUrl": "https://en.engineai.com.cn/about-us",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "limx-dynamics",
+      "canonical": "LimX Dynamics 逐际动力",
+      "englishName": "LimX Dynamics",
+      "aliases": [
+        "LimX Dynamics 逐际动力",
+        "LimX Dynamics"
+      ],
+      "evidenceUrl": "https://www.limxdynamics.com/en",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "robotera",
+      "canonical": "ROBOTERA 星动纪元",
+      "englishName": "ROBOTERA",
+      "aliases": [
+        "ROBOTERA 星动纪元",
+        "ROBOTERA"
+      ],
+      "evidenceUrl": "https://www.robotera.com/static/pc/default/images/cnXhand.pdf",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed",
+      "notes": "主页实时抓取超时；通过官方域名索引中的 XHAND 手册标识核查 ROBOTERA。"
+    },
+    {
+      "id": "astribot",
+      "canonical": "Astribot 星尘智能",
+      "englishName": "Astribot",
+      "aliases": [
+        "Astribot 星尘智能",
+        "Astribot"
+      ],
+      "evidenceUrl": "https://www.astribot.com/en/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "xiaomi",
+      "canonical": "Xiaomi 小米",
+      "englishName": "Xiaomi",
+      "aliases": [
+        "Xiaomi 小米",
+        "Xiaomi"
+      ],
+      "evidenceUrl": "https://www.mi.com/global/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "galbot",
+      "canonical": "Galbot 银河通用",
+      "englishName": "Galbot",
+      "aliases": [
+        "Galbot 银河通用",
+        "Galbot"
+      ],
+      "evidenceUrl": "https://www.galbot.com/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "apptronik",
+      "canonical": "Apptronik",
+      "englishName": "Apptronik",
+      "aliases": [
+        "Apptronik"
+      ],
+      "evidenceUrl": "https://apptronik.com/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "1x",
+      "canonical": "1X Technologies",
+      "englishName": "1X Technologies",
+      "aliases": [
+        "1X Technologies",
+        "1X"
+      ],
+      "evidenceUrl": "https://www.1x.tech/discover/announcement-1x-unveils-neo-beta-a-humanoid-robot-for-the-home",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "figure",
+      "canonical": "Figure AI",
+      "englishName": "Figure",
+      "aliases": [
+        "Figure AI",
+        "Figure"
+      ],
+      "evidenceUrl": "https://www.figure.ai/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed",
+      "notes": "当前官网展示名 Figure；Figure AI 保留为公司常用别名，不推断法律主体名称。"
+    },
+    {
+      "id": "neura-robotics",
+      "canonical": "NEURA Robotics",
+      "englishName": "NEURA Robotics",
+      "aliases": [
+        "NEURA Robotics"
+      ],
+      "evidenceUrl": "https://neura-robotics.com/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "humanoid",
+      "canonical": "Humanoid",
+      "englishName": "Humanoid",
+      "aliases": [
+        "Humanoid"
+      ],
+      "evidenceUrl": "https://thehumanoid.ai/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "sanctuary-ai",
+      "canonical": "Sanctuary AI",
+      "englishName": "Sanctuary AI",
+      "aliases": [
+        "Sanctuary AI"
+      ],
+      "evidenceUrl": "https://sanctuary.ai/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "clone-robotics",
+      "canonical": "Clone Robotics",
+      "englishName": "Clone Robotics",
+      "aliases": [
+        "Clone Robotics"
+      ],
+      "evidenceUrl": "https://clonerobotics.com/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "dexmate",
+      "canonical": "Dexmate",
+      "englishName": "Dexmate",
+      "aliases": [
+        "Dexmate"
+      ],
+      "evidenceUrl": "https://www.dexmate.com/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "dobot",
+      "canonical": "Dobot Robotics",
+      "englishName": "Dobot Robotics",
+      "aliases": [
+        "Dobot",
+        "Dobot Robotics"
+      ],
+      "evidenceUrl": "https://www.dobot-robots.com/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "fauna-robotics",
+      "canonical": "Fauna Robotics",
+      "englishName": "Fauna Robotics",
+      "aliases": [
+        "Fauna Robotics"
+      ],
+      "evidenceUrl": "https://faunarobotics.com/company",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed",
+      "notes": "官网公告仍以 Fauna Robotics 对外，归属变更不替换产品品牌。"
+    },
+    {
+      "id": "xpeng",
+      "canonical": "XPENG",
+      "englishName": "XPENG",
+      "aliases": [
+        "Xpeng Robotics",
+        "XPENG",
+        "XPENG Robotics"
+      ],
+      "evidenceUrl": "https://www.xpeng.com/news/01a080371029a057bc8e8a02a2c6012b",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed",
+      "notes": "采用 XPENG 官方 IRON 公告中的品牌写法；此项是机器人业务，不据此认定独立法人。"
+    },
+    {
+      "id": "kepler",
+      "canonical": "Kepler",
+      "englishName": "KEPLER",
+      "aliases": [
+        "Kepler",
+        "KEPLER"
+      ],
+      "evidenceUrl": "https://www.gotokepler.com/about",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "magiclab",
+      "canonical": "MagicLab Robotics",
+      "englishName": "MagicLab Robotics",
+      "aliases": [
+        "MagicLab",
+        "MagicLab Robotics"
+      ],
+      "evidenceUrl": "https://www.magiclabglobal.com/about-us/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "noble-machines",
+      "canonical": "Noble Machines",
+      "englishName": "Noble Machines",
+      "aliases": [
+        "Noble Machines"
+      ],
+      "evidenceUrl": "https://www.noblemachines.ai/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "noetix-robotics",
+      "canonical": "Noetix Robotics",
+      "englishName": "Noetix Robotics",
+      "aliases": [
+        "Noetix Robotics"
+      ],
+      "evidenceUrl": "https://www.noetixrobotics.com/about/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "tesla",
+      "canonical": "Tesla",
+      "englishName": "Tesla",
+      "aliases": [
+        "Tesla"
+      ],
+      "evidenceUrl": "https://www.tesla.com/SI",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "foundation",
+      "canonical": "Foundation",
+      "englishName": "Foundation",
+      "aliases": [
+        "Foundation Robotics",
+        "Foundation"
+      ],
+      "evidenceUrl": "https://foundation.bot/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed",
+      "notes": "官网品牌 Foundation，页脚主体 Foundation Future Industries, Inc.；旧 Foundation Robotics 保留为检索别名。"
+    },
+    {
+      "id": "pudu-robotics",
+      "canonical": "PUDU Robotics",
+      "englishName": "PUDU Robotics",
+      "aliases": [
+        "PUDU Robotics"
+      ],
+      "evidenceUrl": "https://www.pudurobotics.com/en",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "sunday-robotics",
+      "canonical": "Sunday Robotics",
+      "englishName": "Sunday Robotics",
+      "aliases": [
+        "Sunday Robotics"
+      ],
+      "evidenceUrl": "https://www.sunday.ai/",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed"
+    },
+    {
+      "id": "x-humanoid",
+      "canonical": "X-Humanoid",
+      "englishName": "X-Humanoid",
+      "aliases": [
+        "Beijing Humanoid Robot Innovation Center",
+        "X-Humanoid"
+      ],
+      "evidenceUrl": "https://x-humanoid.com/about.html",
+      "reviewedOn": "2026-10-30",
+      "kind": "company",
+      "status": "official-name-reviewed",
+      "notes": "采用官网对外品牌 X-Humanoid；官方开源组织仍使用 Beijing Humanoid Robot Innovation Center，作为别名保留。"
+    },
+    {
+      "id": "eth-anybotics",
+      "canonical": "ETH / ANYbotics",
+      "englishName": "ETH / ANYbotics",
+      "aliases": [
+        "ETH / ANYbotics"
+      ],
+      "evidenceUrl": "https://rsl.ethz.ch/robots-media/anymal.html",
+      "reviewedOn": "2026-10-30",
+      "kind": "research",
+      "status": "reference-label-retained",
+      "notes": "科研机构或合作署名，与公司品牌分开；保留原研究记录的机构缩写。"
+    },
+    {
+      "id": "eth-zurich",
+      "canonical": "ETH Zurich",
+      "englishName": "ETH Zurich",
+      "aliases": [
+        "ETH Zurich"
+      ],
+      "evidenceUrl": "https://rsl.ethz.ch/",
+      "reviewedOn": "2026-10-30",
+      "kind": "research",
+      "status": "reference-label-retained",
+      "notes": "科研机构或合作署名，与公司品牌分开；保留原研究记录的机构缩写。"
+    },
+    {
+      "id": "eth-srl",
+      "canonical": "ETH Zurich / Soft Robotics Lab",
+      "englishName": "ETH Zurich / Soft Robotics Lab",
+      "aliases": [
+        "ETH Zurich / Soft Robotics Lab"
+      ],
+      "evidenceUrl": "https://srl.ethz.ch/",
+      "reviewedOn": "2026-10-30",
+      "kind": "research",
+      "status": "reference-label-retained",
+      "notes": "科研机构或合作署名，与公司品牌分开；保留原研究记录的机构缩写。"
+    },
+    {
+      "id": "leap-cmu",
+      "canonical": "LEAP Hand / Carnegie Mellon University",
+      "englishName": "LEAP Hand / Carnegie Mellon University",
+      "aliases": [
+        "LEAP Hand / Carnegie Mellon University"
+      ],
+      "evidenceUrl": "https://v1.leaphand.com/",
+      "reviewedOn": "2026-10-30",
+      "kind": "research",
+      "status": "reference-label-retained",
+      "notes": "科研机构或合作署名，与公司品牌分开；保留原研究记录的机构缩写。"
+    },
+    {
+      "id": "mit",
+      "canonical": "MIT",
+      "englishName": "MIT",
+      "aliases": [
+        "MIT"
+      ],
+      "evidenceUrl": "https://biomimetics.mit.edu/",
+      "reviewedOn": "2026-10-30",
+      "kind": "research",
+      "status": "reference-label-retained",
+      "notes": "科研机构或合作署名，与公司品牌分开；保留原研究记录的机构缩写。"
+    },
+    {
+      "id": "odri",
+      "canonical": "ODRI",
+      "englishName": "ODRI",
+      "aliases": [
+        "ODRI"
+      ],
+      "evidenceUrl": "https://open-dynamic-robot-initiative.github.io/",
+      "reviewedOn": "2026-10-30",
+      "kind": "research",
+      "status": "reference-label-retained",
+      "notes": "科研机构或合作署名，与公司品牌分开；保留原研究记录的机构缩写。"
+    },
+    {
+      "id": "odri-mpi-nyu",
+      "canonical": "ODRI / MPI / NYU",
+      "englishName": "ODRI / MPI / NYU",
+      "aliases": [
+        "ODRI / MPI / NYU"
+      ],
+      "evidenceUrl": "https://open-dynamic-robot-initiative.github.io/",
+      "reviewedOn": "2026-10-30",
+      "kind": "research",
+      "status": "reference-label-retained",
+      "notes": "科研机构或合作署名，与公司品牌分开；保留原研究记录的机构缩写。"
+    },
+    {
+      "id": "iit",
+      "canonical": "IIT",
+      "englishName": "IIT",
+      "aliases": [
+        "IIT"
+      ],
+      "evidenceUrl": "https://www.iit.it/",
+      "reviewedOn": "2026-10-30",
+      "kind": "research",
+      "status": "reference-label-retained",
+      "notes": "科研机构或合作署名，与公司品牌分开；保留原研究记录的机构缩写。"
+    },
+    {
+      "id": "kaist-drcd",
+      "canonical": "KAIST DRCD Lab",
+      "englishName": "KAIST DRCD Lab",
+      "aliases": [
+        "KAIST DRCD Lab"
+      ],
+      "evidenceUrl": "https://humanoidintel.ai/robots/kaist-humanoid-v07/",
+      "reviewedOn": "2026-10-30",
+      "kind": "research",
+      "status": "reference-label-retained",
+      "notes": "科研机构或合作署名，与公司品牌分开；保留原研究记录的机构缩写。"
+    }
+  ]
+}

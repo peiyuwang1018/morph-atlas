@@ -1,0 +1,2053 @@
+{
+  "schemaVersion": "1.0",
+  "asof": "2026-10-29",
+  "title": "机器人本体图鉴 · 灵巧手",
+  "discovery": {
+    "url": "https://allhandsup.org/en/#gallery",
+    "observedCount": 21,
+    "role": "型号发现线索；数值与图片回到官方及科研原始资料"
+  },
+  "sources": {
+    "UT-DEX3": {
+      "id": "UT-DEX3",
+      "title": "Unitree Dex3-1 官方参数",
+      "url": "https://www.unitree.com/cn/Dex3-1/",
+      "kind": "厂商官网",
+      "version": "核查2026-10-29",
+      "locator": "官网产品参数表"
+    },
+    "UT-DEX5": {
+      "id": "UT-DEX5",
+      "title": "Unitree Dex5-1 / Dex5-1P 官方参数",
+      "url": "https://www.unitree.com/cn/Dex5-1/",
+      "kind": "厂商官网",
+      "version": "核查2026-10-29",
+      "locator": "官网产品参数表"
+    },
+    "IN-DFX": {
+      "id": "IN-DFX",
+      "title": "因时 RH56DFX 官方参数",
+      "url": "https://en.inspire-robots.com/product/rh56dfx/",
+      "kind": "厂商官网",
+      "version": "核查2026-10-29",
+      "locator": "官网产品参数表"
+    },
+    "IN-G2": {
+      "id": "IN-G2",
+      "title": "因时 RH5DG2 官方参数",
+      "url": "https://en.inspire-robots.com/product/rh5dg2/",
+      "kind": "厂商官网",
+      "version": "核查2026-10-29",
+      "locator": "官网产品参数表"
+    },
+    "IN-H1": {
+      "id": "IN-H1",
+      "title": "因时 RH56H1 官方参数",
+      "url": "https://en.inspire-robots.com/product/rh56h1/",
+      "kind": "厂商官网",
+      "version": "核查2026-10-29",
+      "locator": "官网产品参数表"
+    },
+    "LK-L6": {
+      "id": "LK-L6",
+      "title": "灵心巧手 Linker Hand L6 官方参数",
+      "url": "https://linkerhand.com/details/LinkerHandL6/",
+      "kind": "厂商官网",
+      "version": "核查2026-10-29",
+      "locator": "官网产品参数表"
+    },
+    "LK-L20": {
+      "id": "LK-L20",
+      "title": "灵心巧手 Linker Hand L20 官方参数",
+      "url": "https://www.linkerhand.com/details/LinkerHandL20/",
+      "kind": "厂商官网",
+      "version": "核查2026-10-29",
+      "locator": "官网产品参数表"
+    },
+    "BC-R2": {
+      "id": "BC-R2",
+      "title": "BrainCo Revo 2 官方文档",
+      "url": "https://brainco.tech/docs/revolimb-hand/en/revo2/parameters.html",
+      "kind": "厂商官网",
+      "version": "核查2026-10-29",
+      "locator": "官网产品参数表"
+    },
+    "BC-R2FAQ": {
+      "id": "BC-R2FAQ",
+      "title": "BrainCo Revo 2 官方FAQ",
+      "url": "https://brainco.tech/docs/revolimb-hand/en/revo2/faq.html",
+      "kind": "厂商官网",
+      "version": "核查2026-10-29",
+      "locator": "六电机与磁编码器说明"
+    },
+    "PX-D13": {
+      "id": "PX-D13",
+      "title": "PaXini DexH13 官方参数",
+      "url": "https://www.paxini.com/product/dex/gen2",
+      "kind": "厂商官网",
+      "version": "核查2026-10-29",
+      "locator": "官网产品参数表"
+    },
+    "FAIVE-PAPER": {
+      "id": "FAIVE-PAPER",
+      "title": "Getting the Ball Rolling: Learning a Dexterous Policy for a Biomimetic Tendon-Driven Hand with Rolling Contact Joints",
+      "url": "https://arxiv.org/html/2308.02453v3",
+      "kind": "论文",
+      "version": "Humanoids 2023；arXiv v3（2024-01-22）",
+      "locator": "II-A 手结构；II-C 驱动；Fig.1"
+    },
+    "FAIVE-ETH": {
+      "id": "FAIVE-ETH",
+      "title": "ETH SRL：Faive 手学习灵巧操作",
+      "url": "https://srl.ethz.ch/soft-robotic-news/2023/12/learning-a-dexterous-policy-for-a-biomimetic-tendon-driven-hand-with-rolling-contact-joints.html",
+      "kind": "大学项目页",
+      "version": "2023-12-15",
+      "locator": "项目新闻与论文实物图"
+    },
+    "ORCA-V1-PAPER": {
+      "id": "ORCA-V1-PAPER",
+      "title": "ORCA: An Open-Source, Reliable, Cost-Effective, Anthropomorphic Robotic Hand for Uninterrupted Dexterous Robot Learning",
+      "url": "https://arxiv.org/html/2504.04259v1",
+      "kind": "论文",
+      "version": "2025-04-05 v1",
+      "locator": "硬件设计、驱动与指尖 FSR；Fig.1"
+    },
+    "ORCA-FULL": {
+      "id": "ORCA-FULL",
+      "title": "ORCA 全驱动基础版",
+      "url": "https://www.orcahand.com/models/full",
+      "kind": "官方产品页",
+      "version": "2026-10-29 核验",
+      "locator": "技术参数与产品说明"
+    },
+    "ORCA-HARDWARE": {
+      "id": "ORCA-HARDWARE",
+      "title": "ORCA 当前硬件版本",
+      "url": "https://www.orcahand.com/hardware",
+      "kind": "官方产品页",
+      "version": "2026-10-29 核验",
+      "locator": "V2.1 base / V2.0 touch 对照"
+    },
+    "ORCA-GUIDE": {
+      "id": "ORCA-GUIDE",
+      "title": "ORCA 入门、开源与版本说明",
+      "url": "https://www.orcahand.com/getting-started",
+      "kind": "官方产品页",
+      "version": "2026-10-29 核验",
+      "locator": "V1 停产、V2 开源、接口、触觉选项 FAQ"
+    },
+    "ORCA-SHOP": {
+      "id": "ORCA-SHOP",
+      "title": "ORCA 官方商店",
+      "url": "https://www.orcahand.com/shop",
+      "kind": "官方产品页",
+      "version": "2026-10-29 核验",
+      "locator": "基础版 1100、Touch 2100、驱动选型与组装件"
+    },
+    "LEAP-V1-PAPER": {
+      "id": "LEAP-V1-PAPER",
+      "title": "LEAP Hand: Low-Cost, Efficient, and Anthropomorphic Hand for Robot Learning",
+      "url": "https://arxiv.org/html/2309.06440v1",
+      "kind": "论文",
+      "version": "RSS 2023；arXiv v1（2023-09-12）",
+      "locator": "III 运动学；IV-B3 拉脱试验；V 质量及接口"
+    },
+    "LEAP-V1-BOM": {
+      "id": "LEAP-V1-BOM",
+      "title": "LEAP V1 官方零件清单",
+      "url": "https://v1.leaphand.com/parts",
+      "kind": "官方项目页",
+      "version": "V1 BOM（价格日期 2023-08；本次不录价格）",
+      "locator": "DYNAMIXEL XC330-M288-T ×16"
+    },
+    "LEAP-V1-API": {
+      "id": "LEAP-V1-API",
+      "title": "LEAP V1 官方 API",
+      "url": "https://github.com/leap-hand/LEAP_Hand_API",
+      "kind": "官方代码仓库",
+      "version": "2026-10-29 核验",
+      "locator": "软件接口与许可；硬件 CAD 另有非商业限制"
+    },
+    "ALLEGRO-V4": {
+      "id": "ALLEGRO-V4",
+      "title": "Allegro Hand V4 官方规格",
+      "url": "https://allegrohand.com/sub/product/p.php?idx=1",
+      "kind": "官方产品页",
+      "version": "V4；2026-10-29 核验",
+      "locator": "Features / Specification / Application Cases"
+    },
+    "SHADOW-DEX": {
+      "id": "SHADOW-DEX",
+      "title": "Shadow Dexterous Hand Series",
+      "url": "https://shadowrobot.com/dexterous-hand-series/",
+      "kind": "官方产品页",
+      "version": "2026-10-29 核验",
+      "locator": "全尺寸五指 Dexterous Hand；不含 Lite"
+    },
+    "SHADOW-202412": {
+      "id": "SHADOW-202412",
+      "title": "Shadow Dexterous Hand E 技术规格",
+      "url": "https://shadowrobot.com/wp-content/uploads/2024/12/shadow_dexterous_hand_e_technical_specification_20241204.pdf",
+      "kind": "官方手册",
+      "version": "2024-12-04",
+      "locator": "关节、驱动、总质量与传感器"
+    },
+    "QB-SHR": {
+      "id": "QB-SHR",
+      "title": "qb SoftHand Research 官方产品页",
+      "url": "https://qbrobotics.com/product/qb-softhand-research/",
+      "kind": "官方产品页",
+      "version": "2026-10-29 核验",
+      "locator": "Technical data / pinch grasp configuration"
+    },
+    "SCHUNK-SVH": {
+      "id": "SCHUNK-SVH",
+      "title": "SCHUNK SVH 产品系列",
+      "url": "https://schunk.com/us/en/gripping-systems/special-gripper/svh/c/PGR_3161",
+      "kind": "官方产品页",
+      "version": "2026-10-29 核验",
+      "locator": "五指、九驱动、ROS、机械设计"
+    },
+    "SCHUNK-SVH-L": {
+      "id": "SCHUNK-SVH-L",
+      "title": "SCHUNK SVH 左手 1545589 官方规格",
+      "url": "https://schunk.com/sk/sk/uchopovacie-systemy/specialny-uchopovac/svh/svh-linke-hand/p/000000000001545589",
+      "kind": "官方产品页",
+      "version": "2026-10-29 核验",
+      "locator": "Technical data：20 DoF、1.3 kg、尺寸、HRC 载荷"
+    },
+    "BARRETT-282": {
+      "id": "BARRETT-282",
+      "title": "BarrettHand BH8-282 Datasheet",
+      "url": "https://web.barrett.com/support/BarrettHand_Documentation/BH8-282_Datasheet.pdf",
+      "kind": "官方手册",
+      "version": "2024Jan29 Rev AH",
+      "locator": "p.1 产品；p.2 规格、可选触觉与运动学"
+    },
+    "BARRETT-PAGE": {
+      "id": "BARRETT-PAGE",
+      "title": "BarrettHand 官方产品页",
+      "url": "https://advanced.barrett.com/barretthand",
+      "kind": "官方产品页",
+      "version": "2026-10-29 核验",
+      "locator": "产品与官方摄影"
+    }
+  },
+  "products": [
+    {
+      "id": "UT-DEX5-1P",
+      "brand": "Unitree",
+      "model": "Dex5-1P",
+      "origin": "中国",
+      "category": "仿人五指手",
+      "status": "商用",
+      "position": "可反向驱动的五指手，面向灵巧操作与RL",
+      "drive": "空心杯电机与自研力控关节",
+      "transmission": "12个复合传动关节 + 4个齿轮传动关节",
+      "protocol": [
+        "USB 2.0"
+      ],
+      "tactile": "12阵列、94压力感测点",
+      "availability": "官方产品目录在列；供货配置与交期需询厂",
+      "openSource": {
+        "status": "未核实开放源码许可",
+        "url": null
+      },
+      "notes": "16主动+4耦合/被动自由度。四指末节与前一关节耦合。掌面向左负载4.5kg，掌面向下3.5kg，不能混为无条件负载。尺寸注明实际发货可能调整。",
+      "sourceIds": [
+        "UT-DEX5"
+      ],
+      "metrics": {
+        "fingers": {
+          "value": 5,
+          "unit": "指",
+          "source": "UT-DEX5",
+          "condition": "本体手指数",
+          "qual": "标称",
+          "page": null
+        },
+        "activeDof": {
+          "value": 16,
+          "unit": "DOF",
+          "source": "UT-DEX5",
+          "condition": "官网明确独立/主动驱动自由度",
+          "qual": "标称",
+          "page": null
+        },
+        "mechanicalDof": {
+          "value": 20,
+          "unit": "DOF",
+          "source": "UT-DEX5",
+          "condition": "官网总自由度，含被动/耦合关节；与主动DOF分列",
+          "qual": "标称",
+          "page": null
+        },
+        "massKg": {
+          "value": 1.1,
+          "unit": "kg",
+          "source": "UT-DEX5",
+          "condition": "单手本体质量；配置见条目",
+          "qual": "标称",
+          "page": null
+        },
+        "lengthMm": {
+          "value": 217.3,
+          "unit": "mm",
+          "source": "UT-DEX5",
+          "condition": "官网长/高度定义",
+          "qual": "标称",
+          "page": null
+        },
+        "widthMm": {
+          "value": 127.5,
+          "unit": "mm",
+          "source": "UT-DEX5",
+          "condition": "官网宽度定义",
+          "qual": "标称",
+          "page": null
+        },
+        "actuators": {
+          "value": 16,
+          "unit": "个",
+          "source": "UT-DEX5",
+          "condition": "12+4自研驱动关节，不以20机械DOF反推电机数",
+          "qual": "标称",
+          "page": null
+        },
+        "payloadKg": {
+          "value": 3.5,
+          "unit": "kg",
+          "source": "UT-DEX5",
+          "condition": "常温掌面向下，抓5cm圆形硬性物体最大负载",
+          "qual": "标称",
+          "page": null
+        },
+        "fingertipForceN": {
+          "value": 10,
+          "unit": "N",
+          "source": "UT-DEX5",
+          "condition": "厂商标称；测试条件未完整披露",
+          "qual": "标称",
+          "page": null
+        },
+        "repeatabilityMm": {
+          "value": 1,
+          "unit": "mm",
+          "source": "UT-DEX5",
+          "condition": "指尖重复定位精度±1mm",
+          "qual": "标称",
+          "page": null
+        },
+        "sensorCount": {
+          "value": 94,
+          "unit": "个",
+          "source": "UT-DEX5",
+          "condition": "P版12组压力阵列内感测点总数",
+          "qual": "标称",
+          "page": null
+        }
+      },
+      "image": {
+        "path": "assets/hands/unitree-dex5.png",
+        "pageUrl": "https://www.unitree.com/cn/Dex5-1/",
+        "credit": "Unitree 宇树 官方产品图",
+        "caption": "Dex5系列官方示意图；两版本共用，压力阵列配置以型号参数为准"
+      },
+      "research": [],
+      "tactileStatus": "yes",
+      "driveGroup": "空心杯电机",
+      "brandId": "unitree",
+      "brandEn": "Unitree Robotics",
+      "aliases": [
+        "Unitree",
+        "Unitree 宇树",
+        "宇树科技 Unitree",
+        "Unitree Robotics"
+      ],
+      "originalBrand": "Unitree 宇树"
+    },
+    {
+      "id": "eth-orca-v1",
+      "brand": "ETH Zurich / Soft Robotics Lab",
+      "model": "ORCA Hand V1（2025）",
+      "origin": "瑞士",
+      "category": "仿人五指手",
+      "status": "开源科研",
+      "position": "面向连续学习实验、可复现装配与腱张力校准的第一代开源手。",
+      "drive": "独立电动舵机位于前臂驱动塔。",
+      "transmission": "指部腱驱动；腕部 GT2 同步带。",
+      "protocol": [],
+      "tactile": "每指尖 1 枚 FSR，共 5 枚；论文用于接触检测，不等同标定的多轴力阵列。",
+      "tactileStatus": "yes",
+      "availability": "官方已说明 V1 不再生产；设计文件作为 legacy 保留。",
+      "openSource": {
+        "status": "V1 设计文件 CC BY 4.0；控制及模型仓库公开",
+        "url": "https://www.orcahand.com/getting-started"
+      },
+      "notes": "17 DoF 包含 1 个腕部自由度；与只统计手指的 16 DoF 对照时需扣除腕。；不要把 V2 Touch 的 351 taxels 或现售驱动选项填入 V1。",
+      "sourceIds": [
+        "ORCA-V1-PAPER",
+        "ORCA-GUIDE"
+      ],
+      "metrics": {
+        "fingers": {
+          "value": 5,
+          "unit": "指",
+          "source": "ORCA-V1-PAPER",
+          "condition": "五指，不把腕计作手指"
+        },
+        "activeDof": {
+          "value": 17,
+          "unit": "DoF",
+          "source": "ORCA-V1-PAPER",
+          "condition": "16 个手指独立自由度 + 1 腕部"
+        },
+        "mechanicalDof": {
+          "value": 17,
+          "unit": "DoF",
+          "source": "ORCA-V1-PAPER",
+          "condition": "论文 17 个独立关节运动自由度，含腕"
+        },
+        "actuators": {
+          "value": 17,
+          "unit": "个",
+          "source": "ORCA-V1-PAPER",
+          "condition": "每个独立驱动轴对应电机；含腕电机"
+        },
+        "sensorCount": {
+          "value": 5,
+          "unit": "个",
+          "source": "ORCA-V1-PAPER",
+          "condition": "五个指尖 FSR 接触传感器；不包含舵机内部传感器"
+        }
+      },
+      "image": {
+        "path": "assets/hands/orca-v1.png",
+        "pageUrl": "https://arxiv.org/html/2504.04259v1",
+        "credit": "ETH Zurich ORCA 作者",
+        "caption": "V1 论文图：实物、关节结构与实验展示。"
+      },
+      "research": [
+        {
+          "name": "ORCA 2025 论文",
+          "url": "https://arxiv.org/html/2504.04259v1",
+          "note": "报告连续学习、维护和寿命测试；结果对应 V1 原型。"
+        }
+      ],
+      "driveGroup": "智能舵机",
+      "brandId": "eth-srl",
+      "brandEn": "ETH Zurich / Soft Robotics Lab",
+      "aliases": [
+        "ETH Zurich / Soft Robotics Lab"
+      ]
+    },
+    {
+      "id": "leap-hand-v1",
+      "brand": "LEAP Hand / Carnegie Mellon University",
+      "model": "LEAP Hand V1 Full",
+      "origin": "美国",
+      "category": "多指灵巧手",
+      "status": "开源科研",
+      "position": "低成本、可维护的四指机器人学习平台；本条为 V1 Full。",
+      "drive": "16 个 Dynamixel XC330-M288-T 智能舵机。",
+      "transmission": "关节内齿轮减速舵机直接驱动；非腱驱动。",
+      "protocol": [
+        "USB via U2D2",
+        "ROS / ROS 2",
+        "Python / C++"
+      ],
+      "tactile": "基线资料未配置独立触觉阵列；读取舵机位置、速度与电流。",
+      "tactileStatus": "no",
+      "availability": "零件清单和装配资料公开；官方提供部分套件供应信息。",
+      "openSource": {
+        "status": "代码与 CAD 公开；CAD 有非商业许可限制，不能等同无条件商用开源",
+        "url": "https://github.com/leap-hand/LEAP_Hand_API"
+      },
+      "notes": "V1 Full、V1 Lite、V2 和 V2 Advanced 不能混用指标。；19.5 N 来自单指瞬时抗拉脱试验，不能作为整手握力或标准指尖推力。",
+      "sourceIds": [
+        "LEAP-V1-PAPER",
+        "LEAP-V1-BOM",
+        "LEAP-V1-API"
+      ],
+      "metrics": {
+        "fingers": {
+          "value": 4,
+          "unit": "指",
+          "source": "LEAP-V1-PAPER",
+          "condition": "四指完整 V1；无驱动腕"
+        },
+        "activeDof": {
+          "value": 16,
+          "unit": "DoF",
+          "source": "LEAP-V1-PAPER",
+          "condition": "四指各四个直接驱动关节；无腕"
+        },
+        "mechanicalDof": {
+          "value": 16,
+          "unit": "DoF",
+          "source": "LEAP-V1-PAPER",
+          "condition": "V1 四指刚性运动学；无腕"
+        },
+        "actuators": {
+          "value": 16,
+          "unit": "个",
+          "source": "LEAP-V1-BOM",
+          "condition": "官方 BOM 的 XC330-M288-T 数量"
+        },
+        "massKg": {
+          "value": 0.595,
+          "unit": "kg",
+          "source": "LEAP-V1-PAPER",
+          "condition": "论文 V 节四指 LEAP Hand 总质量"
+        },
+        "fingertipForceN": {
+          "value": 19.5,
+          "unit": "N",
+          "source": "LEAP-V1-PAPER",
+          "condition": "Table III：弯曲单指抵抗钩形测力计向外拉力；失效为滑脱或关节误差超过 15°",
+          "qual": "试验抗拉脱力"
+        }
+      },
+      "image": {
+        "path": "assets/hands/leap-v1.png",
+        "pageUrl": "https://arxiv.org/html/2309.06440v1",
+        "credit": "Kenneth Shaw, Ananye Agarwal, Deepak Pathak / CMU",
+        "caption": "V1 论文实物照片与抓取演示拼图。"
+      },
+      "research": [
+        {
+          "name": "RSS 2023 LEAP Hand",
+          "url": "https://arxiv.org/html/2309.06440v1",
+          "note": "遥操作、视频模仿与 sim-to-real 手内旋转；力值按原实验条件阅读。"
+        }
+      ],
+      "driveGroup": "智能舵机",
+      "brandId": "leap-cmu",
+      "brandEn": "LEAP Hand / Carnegie Mellon University",
+      "aliases": [
+        "LEAP Hand / Carnegie Mellon University"
+      ]
+    },
+    {
+      "id": "IN-RH5DG2-E4R-T1",
+      "brand": "INSPIRE ROBOTS 因时",
+      "model": "RH5DG2-E4R-T1",
+      "origin": "中国",
+      "category": "仿人五指手",
+      "status": "商用",
+      "position": "13主动轴的高自由度五指操作平台",
+      "drive": "电动驱动；具体电机型号未披露",
+      "transmission": "官网未细分",
+      "protocol": [
+        "EtherCAT",
+        "CAN FD"
+      ],
+      "tactile": "8组触觉传感器，力/位置/温度多维感知",
+      "availability": "官方产品目录在列；供货配置与交期需询厂",
+      "openSource": {
+        "status": "未核实开放源码许可",
+        "url": null
+      },
+      "notes": "官网明确13主动DOF与18运动关节。18运动关节不等于18独立机械自由度，故不填机械DOF。重量1020±15g，不含腕。8kg是单指被动承压，未作payload。",
+      "sourceIds": [
+        "IN-G2"
+      ],
+      "metrics": {
+        "fingers": {
+          "value": 5,
+          "unit": "指",
+          "source": "IN-G2",
+          "condition": "本体手指数",
+          "qual": "标称",
+          "page": null
+        },
+        "activeDof": {
+          "value": 13,
+          "unit": "DOF",
+          "source": "IN-G2",
+          "condition": "官网明确独立/主动驱动自由度",
+          "qual": "标称",
+          "page": null
+        },
+        "massKg": {
+          "value": 1.02,
+          "unit": "kg",
+          "source": "IN-G2",
+          "condition": "单手本体质量；配置见条目",
+          "qual": "标称",
+          "page": null
+        },
+        "fingertipForceN": {
+          "value": 10,
+          "unit": "N",
+          "source": "IN-G2",
+          "condition": "四指指尖≥10N；拇指≥20N",
+          "qual": "≥",
+          "page": null
+        },
+        "repeatabilityMm": {
+          "value": 0.2,
+          "unit": "mm",
+          "source": "IN-G2",
+          "condition": "重复定位精度±0.2mm",
+          "qual": "标称",
+          "page": null
+        },
+        "sensorGroupCount": {
+          "value": 8,
+          "unit": "组",
+          "source": "IN-G2",
+          "condition": "触觉传感器组数，不是触觉点数量",
+          "qual": "标称",
+          "page": null
+        }
+      },
+      "image": {
+        "path": "assets/hands/inspire-rh5dg2.jpg",
+        "pageUrl": "https://en.inspire-robots.com/product/rh5dg2/",
+        "credit": "INSPIRE 因时 官方产品图",
+        "caption": "RH5DG2-E4R-T1 官方图，非生成图"
+      },
+      "research": [],
+      "tactileStatus": "yes",
+      "driveGroup": "电动驱动（未细分）",
+      "brandId": "inspire-robots",
+      "brandEn": "INSPIRE ROBOTS",
+      "aliases": [
+        "INSPIRE 因时",
+        "INSPIRE ROBOTS 因时",
+        "INSPIRE",
+        "INSPIRE ROBOTS"
+      ],
+      "originalBrand": "INSPIRE 因时"
+    },
+    {
+      "id": "LK-L20",
+      "brand": "Linkerbot 灵心巧手",
+      "model": "Linker Hand L20",
+      "origin": "中国",
+      "category": "仿人五指手",
+      "status": "商用",
+      "position": "高自由度连杆手，面向教学科研与工业操作",
+      "drive": "无刷电机+精密滚珠丝杠，自研关节模块",
+      "transmission": "连杆传动",
+      "protocol": [
+        "CAN",
+        "RS485"
+      ],
+      "tactile": "本页未提供可核对的触觉阵列数",
+      "availability": "官方产品目录在列；供货配置与交期需询厂",
+      "openSource": {
+        "status": "未核实开放源码许可",
+        "url": null
+      },
+      "notes": "当前官网为16主动+5被动，未采用历史二手资料20主动说法。厂商说近20个电机，非精确数量，不填写actuators。负载20kg测试条件待补。",
+      "sourceIds": [
+        "LK-L20"
+      ],
+      "metrics": {
+        "fingers": {
+          "value": 5,
+          "unit": "指",
+          "source": "LK-L20",
+          "condition": "本体手指数",
+          "qual": "标称",
+          "page": null
+        },
+        "activeDof": {
+          "value": 16,
+          "unit": "DOF",
+          "source": "LK-L20",
+          "condition": "官网明确独立/主动驱动自由度",
+          "qual": "标称",
+          "page": null
+        },
+        "mechanicalDof": {
+          "value": 21,
+          "unit": "DOF",
+          "source": "LK-L20",
+          "condition": "官网总自由度，含被动/耦合关节；与主动DOF分列",
+          "qual": "标称",
+          "page": null
+        },
+        "massKg": {
+          "value": 1.2,
+          "unit": "kg",
+          "source": "LK-L20",
+          "condition": "单手本体质量；配置见条目",
+          "qual": "标称",
+          "page": null
+        },
+        "payloadKg": {
+          "value": 20,
+          "unit": "kg",
+          "source": "LK-L20",
+          "condition": "官网最大负载；姿态与持续时间未披露",
+          "qual": "标称",
+          "page": null
+        },
+        "gripForceN": {
+          "value": 100,
+          "unit": "N",
+          "source": "LK-L20",
+          "condition": "五指最大抓握力",
+          "qual": "标称",
+          "page": null
+        },
+        "fingertipForceN": {
+          "value": 20,
+          "unit": "N",
+          "source": "LK-L20",
+          "condition": "四指最大指尖力；拇指15N",
+          "qual": "标称",
+          "page": null
+        },
+        "repeatabilityMm": {
+          "value": 0.2,
+          "unit": "mm",
+          "source": "LK-L20",
+          "condition": "重复定位精度±0.20mm",
+          "qual": "标称",
+          "page": null
+        }
+      },
+      "image": {
+        "path": "assets/hands/linker-l20.png",
+        "pageUrl": "https://www.linkerhand.com/details/LinkerHandL20/",
+        "credit": "Linkerbot 灵心巧手 官方产品图",
+        "caption": "Linker Hand L20 官方图，非生成图"
+      },
+      "research": [],
+      "tactileStatus": "unknown",
+      "driveGroup": "无刷电机",
+      "brandId": "linkerbot",
+      "brandEn": "Linkerbot",
+      "aliases": [
+        "Linkerbot 灵心巧手",
+        "Linkerbot"
+      ]
+    },
+    {
+      "id": "shadow-dexterous-hand",
+      "brand": "Shadow Robot",
+      "model": "Shadow Dexterous Hand（五指完整版）",
+      "origin": "英国",
+      "category": "仿人五指手",
+      "status": "商用",
+      "position": "高自由度全尺寸科研手，电机与驱动集成于前臂。",
+      "drive": "20 个 DC 电机。",
+      "transmission": "电机通过腱绳驱动；4 处耦合欠驱动运动。",
+      "protocol": [
+        "EtherCAT",
+        "ROS"
+      ],
+      "tactile": "完整版标准安装 2 枚 Shadow Tactile Fingertip（最多 5 枚）；另有腱张力传感。",
+      "tactileStatus": "yes",
+      "availability": "商业询价供应；触觉和皮肤配置需按订单锁定。",
+      "openSource": {
+        "status": "提供 ROS 开发生态；本体硬件为商业产品",
+        "url": "https://shadowrobot.com/dexterous-hand-series/"
+      },
+      "notes": "20 个主动自由度、24 个关节运动不等价。；4.3 kg 包括手与前臂系统，不能与不含驱动塔的掌部质量直接比较。",
+      "sourceIds": [
+        "SHADOW-DEX",
+        "SHADOW-202412"
+      ],
+      "metrics": {
+        "fingers": {
+          "value": 5,
+          "unit": "指",
+          "source": "SHADOW-DEX",
+          "condition": "完整版五指手"
+        },
+        "activeDof": {
+          "value": 20,
+          "unit": "DoF",
+          "source": "SHADOW-202412",
+          "condition": "20 actuated degrees of freedom；包含 2 个腕部驱动"
+        },
+        "jointCount": {
+          "value": 24,
+          "unit": "关节",
+          "source": "SHADOW-202412",
+          "condition": "24 个关节运动，含 4 个耦合欠驱动及 2 个腕部关节"
+        },
+        "actuators": {
+          "value": 20,
+          "unit": "个",
+          "source": "SHADOW-202412",
+          "condition": "20 个电机位于前臂驱动区"
+        },
+        "massKg": {
+          "value": 4.3,
+          "unit": "kg",
+          "source": "SHADOW-202412",
+          "condition": "整体手 + 前臂系统",
+          "page": 6
+        },
+        "payloadKg": {
+          "value": 4,
+          "unit": "kg",
+          "source": "SHADOW-202412",
+          "condition": "技术手册 §2.3：power grasp 下可持有最高 4 kg；非任意抓型额定载荷",
+          "page": 6,
+          "qual": "特定抓型上限"
+        }
+      },
+      "image": {
+        "path": "assets/hands/shadow.png",
+        "pageUrl": "https://shadowrobot.com/dexterous-hand-series/",
+        "credit": "Shadow Robot",
+        "caption": "官方五指完整版实物图，包含前臂驱动。"
+      },
+      "research": [
+        {
+          "name": "Shadow Dexterous Hand 开发平台",
+          "url": "https://shadowrobot.com/dexterous-hand-series/",
+          "note": "全尺寸版本；不混用 Dexterous Hand Lite 或 DEX-EE 参数。"
+        }
+      ],
+      "driveGroup": "直流电机（未细分）",
+      "brandId": "shadow-robot",
+      "brandEn": "Shadow Robot",
+      "aliases": [
+        "Shadow Robot"
+      ]
+    },
+    {
+      "id": "UT-DEX3-1",
+      "brand": "Unitree",
+      "model": "Dex3-1 触觉版",
+      "origin": "中国",
+      "category": "多指灵巧手",
+      "status": "商用",
+      "position": "G1配套三指力控手，面向遥操作与操作学习",
+      "drive": "微型无刷力控关节",
+      "transmission": "6个关节直驱手指，1个关节经齿轮驱动",
+      "protocol": [
+        "USB 2.0"
+      ],
+      "tactile": "9组阵列，共33个压力传感器",
+      "availability": "官方产品目录在列；供货配置与交期需询厂",
+      "openSource": {
+        "status": "未核实开放源码许可",
+        "url": null
+      },
+      "notes": "“关节直驱”是手指级结构描述；所用关节模组内部仍有108/214减速比，不能据此称裸电机无减速。20kg为传感器压迫不损坏条件，不是抓持负载。",
+      "sourceIds": [
+        "UT-DEX3"
+      ],
+      "metrics": {
+        "fingers": {
+          "value": 3,
+          "unit": "指",
+          "source": "UT-DEX3",
+          "condition": "本体手指数",
+          "qual": "标称",
+          "page": null
+        },
+        "activeDof": {
+          "value": 7,
+          "unit": "DOF",
+          "source": "UT-DEX3",
+          "condition": "官网明确独立/主动驱动自由度",
+          "qual": "标称",
+          "page": null
+        },
+        "mechanicalDof": {
+          "value": 7,
+          "unit": "DOF",
+          "source": "UT-DEX3",
+          "condition": "三指共7个自由度，全部可驱动；不含机器人腕关节",
+          "qual": "标称",
+          "page": null
+        },
+        "massKg": {
+          "value": 0.71,
+          "unit": "kg",
+          "source": "UT-DEX3",
+          "condition": "单手本体质量；配置见条目",
+          "qual": "标称",
+          "page": null
+        },
+        "lengthMm": {
+          "value": 175,
+          "unit": "mm",
+          "source": "UT-DEX3",
+          "condition": "官网长/高度定义",
+          "qual": "标称",
+          "page": null
+        },
+        "widthMm": {
+          "value": 88,
+          "unit": "mm",
+          "source": "UT-DEX3",
+          "condition": "官网宽度定义",
+          "qual": "标称",
+          "page": null
+        },
+        "actuators": {
+          "value": 7,
+          "unit": "个",
+          "source": "UT-DEX3",
+          "condition": "6+1个微型力控关节",
+          "qual": "标称",
+          "page": null
+        },
+        "payloadKg": {
+          "value": 0.5,
+          "unit": "kg",
+          "source": "UT-DEX3",
+          "condition": "常温、掌面向下或向左、抓5cm圆形硬性物体，最大",
+          "qual": "标称",
+          "page": null
+        },
+        "repeatabilityMm": {
+          "value": 2,
+          "unit": "mm",
+          "source": "UT-DEX3",
+          "condition": "指尖重复定位精度±2mm",
+          "qual": "标称",
+          "page": null
+        },
+        "sensorCount": {
+          "value": 33,
+          "unit": "个",
+          "source": "UT-DEX3",
+          "condition": "压力感测点总数；分9组阵列",
+          "qual": "标称",
+          "page": null
+        }
+      },
+      "image": {
+        "path": "assets/hands/unitree-dex3.png",
+        "pageUrl": "https://www.unitree.com/cn/Dex3-1/",
+        "credit": "Unitree 宇树 官方产品图",
+        "caption": "Dex3-1 触觉版 官方图，非生成图"
+      },
+      "research": [],
+      "tactileStatus": "yes",
+      "driveGroup": "无刷电机",
+      "brandId": "unitree",
+      "brandEn": "Unitree Robotics",
+      "aliases": [
+        "Unitree",
+        "Unitree 宇树",
+        "宇树科技 Unitree",
+        "Unitree Robotics"
+      ],
+      "originalBrand": "Unitree 宇树"
+    },
+    {
+      "id": "eth-faive-proto0",
+      "brand": "ETH Zurich / Soft Robotics Lab",
+      "model": "Faive Hand Proto 0（2023）",
+      "origin": "瑞士",
+      "category": "仿人五指手",
+      "status": "科研原型",
+      "position": "用于滚动接触关节、腱驱动建模与手内操作学习的科研原型。",
+      "drive": "16 个 Dynamixel XC330 系列舵机；部分关节采用拮抗驱动。",
+      "transmission": "腱绳 + 滚动接触关节；远端关节耦合。",
+      "protocol": [],
+      "tactile": "2023 论文未披露独立指尖触觉阵列。",
+      "tactileStatus": "unknown",
+      "availability": "论文原型；未找到该版本标准商业供货页。",
+      "openSource": {
+        "status": "论文公开；完整硬件开源状态待核",
+        "url": "https://arxiv.org/html/2308.02453v3"
+      },
+      "notes": "11 个可驱动自由度、16 个物理关节和 16 个舵机是不同统计口径。；不把后续 Faive 触觉皮肤论文或商业后继产品数据混入本条。；论文将舵机写为 XC330-T288-T，具体型号拼写需与作者 BOM 二次核对。",
+      "sourceIds": [
+        "FAIVE-PAPER",
+        "FAIVE-ETH"
+      ],
+      "metrics": {
+        "fingers": {
+          "value": 5,
+          "unit": "指",
+          "source": "FAIVE-PAPER",
+          "condition": "拇指及四指；不含腕"
+        },
+        "activeDof": {
+          "value": 11,
+          "unit": "DoF",
+          "source": "FAIVE-PAPER",
+          "condition": "论文 actuatable DoF：拇指 3，其余每指 2；不计腕"
+        },
+        "jointCount": {
+          "value": 16,
+          "unit": "关节",
+          "source": "FAIVE-PAPER",
+          "condition": "物理关节数量；含耦合远端关节，不能当作 16 独立 DoF"
+        },
+        "actuators": {
+          "value": 16,
+          "unit": "个",
+          "source": "FAIVE-PAPER",
+          "condition": "系统内舵机数量；拮抗驱动使电机数不等于主动 DoF"
+        },
+        "massKg": {
+          "value": 1.1,
+          "unit": "kg",
+          "source": "FAIVE-PAPER",
+          "condition": "论文 total hand system，包含驱动系统；非单独掌部质量"
+        },
+        "payloadKg": {
+          "value": 10,
+          "unit": "kg",
+          "source": "FAIVE-PAPER",
+          "condition": "论文向下五指 power grasp 演示最高负载；不是任意抓型额定载荷",
+          "qual": "演示上限"
+        }
+      },
+      "image": {
+        "path": "assets/hands/faive.png",
+        "pageUrl": "https://srl.ethz.ch/soft-robotic-news/2023/12/learning-a-dexterous-policy-for-a-biomimetic-tendon-driven-hand-with-rolling-contact-joints.html",
+        "credit": "ETH Zurich SRL / 论文作者",
+        "caption": "ETH 官方论文成果图，含仿真与实物转球画面。"
+      },
+      "research": [
+        {
+          "name": "Humanoids 2023：滚动接触关节手的学习控制",
+          "url": "https://arxiv.org/html/2308.02453v3",
+          "note": "实物完成球体手内旋转；本条数值来自此代原型。"
+        }
+      ],
+      "driveGroup": "智能舵机",
+      "brandId": "eth-srl",
+      "brandEn": "ETH Zurich / Soft Robotics Lab",
+      "aliases": [
+        "ETH Zurich / Soft Robotics Lab"
+      ]
+    },
+    {
+      "id": "PX-DEXH13-GEN2",
+      "brand": "PaXini 帕西尼",
+      "model": "DexH13（GEN2触觉）",
+      "origin": "中国",
+      "category": "多指灵巧手",
+      "status": "商用",
+      "position": "触觉与手眼视觉融合的四指灵巧操作平台",
+      "drive": "空心杯电机",
+      "transmission": "官网未细分",
+      "protocol": [
+        "EtherCAT",
+        "Modbus"
+      ],
+      "tactile": "1140个ITPU多维触觉单元，3420信号通道，8MP手眼相机",
+      "availability": "官方产品目录在列；供货配置与交期需询厂",
+      "openSource": {
+        "status": "未核实开放源码许可",
+        "url": null
+      },
+      "notes": "13主动+3被动。1140是触觉感测单元，3420是信号通道，不可混计。1mm为触觉按压定位精度，不是机械重复定位精度。",
+      "sourceIds": [
+        "PX-D13"
+      ],
+      "metrics": {
+        "fingers": {
+          "value": 4,
+          "unit": "指",
+          "source": "PX-D13",
+          "condition": "本体手指数",
+          "qual": "标称",
+          "page": null
+        },
+        "activeDof": {
+          "value": 13,
+          "unit": "DOF",
+          "source": "PX-D13",
+          "condition": "官网明确独立/主动驱动自由度",
+          "qual": "标称",
+          "page": null
+        },
+        "mechanicalDof": {
+          "value": 16,
+          "unit": "DOF",
+          "source": "PX-D13",
+          "condition": "官网总自由度，含被动/耦合关节；与主动DOF分列",
+          "qual": "标称",
+          "page": null
+        },
+        "payloadKg": {
+          "value": 5,
+          "unit": "kg",
+          "source": "PX-D13",
+          "condition": "厂商负载；姿态、持续时间未披露",
+          "qual": "标称",
+          "page": null
+        },
+        "fingertipForceN": {
+          "value": 15,
+          "unit": "N",
+          "source": "PX-D13",
+          "condition": "厂商实验室最大指尖力",
+          "qual": "标称",
+          "page": null
+        },
+        "sensorCount": {
+          "value": 1140,
+          "unit": "个",
+          "source": "PX-D13",
+          "condition": "ITPU触觉感测单元；3420信号通道另记",
+          "qual": "标称",
+          "page": null
+        }
+      },
+      "image": {
+        "path": "assets/hands/paxini-dexh13.png",
+        "pageUrl": "https://www.paxini.com/product/dex/gen2",
+        "credit": "PaXini 帕西尼 官方产品图",
+        "caption": "DexH13（GEN2触觉） 官方图，非生成图"
+      },
+      "research": [],
+      "tactileStatus": "yes",
+      "driveGroup": "空心杯电机",
+      "brandId": "paxini",
+      "brandEn": "PaXini",
+      "aliases": [
+        "PaXini 帕西尼",
+        "PaXini"
+      ]
+    },
+    {
+      "id": "UT-DEX5-1",
+      "brand": "Unitree",
+      "model": "Dex5-1",
+      "origin": "中国",
+      "category": "仿人五指手",
+      "status": "商用",
+      "position": "可反向驱动的五指手，面向灵巧操作与RL",
+      "drive": "空心杯电机与自研力控关节",
+      "transmission": "12个复合传动关节 + 4个齿轮传动关节",
+      "protocol": [
+        "USB 2.0"
+      ],
+      "tactile": "该基础版参数表不含压力阵列",
+      "availability": "官方产品目录在列；供货配置与交期需询厂",
+      "openSource": {
+        "status": "未核实开放源码许可",
+        "url": null
+      },
+      "notes": "16主动+4耦合/被动自由度。四指末节与前一关节耦合。掌面向左负载4.5kg，掌面向下3.5kg，不能混为无条件负载。尺寸注明实际发货可能调整。",
+      "sourceIds": [
+        "UT-DEX5"
+      ],
+      "metrics": {
+        "fingers": {
+          "value": 5,
+          "unit": "指",
+          "source": "UT-DEX5",
+          "condition": "本体手指数",
+          "qual": "标称",
+          "page": null
+        },
+        "activeDof": {
+          "value": 16,
+          "unit": "DOF",
+          "source": "UT-DEX5",
+          "condition": "官网明确独立/主动驱动自由度",
+          "qual": "标称",
+          "page": null
+        },
+        "mechanicalDof": {
+          "value": 20,
+          "unit": "DOF",
+          "source": "UT-DEX5",
+          "condition": "官网总自由度，含被动/耦合关节；与主动DOF分列",
+          "qual": "标称",
+          "page": null
+        },
+        "massKg": {
+          "value": 1.1,
+          "unit": "kg",
+          "source": "UT-DEX5",
+          "condition": "单手本体质量；配置见条目",
+          "qual": "标称",
+          "page": null
+        },
+        "lengthMm": {
+          "value": 217.3,
+          "unit": "mm",
+          "source": "UT-DEX5",
+          "condition": "官网长/高度定义",
+          "qual": "标称",
+          "page": null
+        },
+        "widthMm": {
+          "value": 127.5,
+          "unit": "mm",
+          "source": "UT-DEX5",
+          "condition": "官网宽度定义",
+          "qual": "标称",
+          "page": null
+        },
+        "actuators": {
+          "value": 16,
+          "unit": "个",
+          "source": "UT-DEX5",
+          "condition": "12+4自研驱动关节，不以20机械DOF反推电机数",
+          "qual": "标称",
+          "page": null
+        },
+        "payloadKg": {
+          "value": 3.5,
+          "unit": "kg",
+          "source": "UT-DEX5",
+          "condition": "常温掌面向下，抓5cm圆形硬性物体最大负载",
+          "qual": "标称",
+          "page": null
+        },
+        "fingertipForceN": {
+          "value": 10,
+          "unit": "N",
+          "source": "UT-DEX5",
+          "condition": "厂商标称；测试条件未完整披露",
+          "qual": "标称",
+          "page": null
+        },
+        "repeatabilityMm": {
+          "value": 1,
+          "unit": "mm",
+          "source": "UT-DEX5",
+          "condition": "指尖重复定位精度±1mm",
+          "qual": "标称",
+          "page": null
+        }
+      },
+      "image": {
+        "path": "assets/hands/unitree-dex5.png",
+        "pageUrl": "https://www.unitree.com/cn/Dex5-1/",
+        "credit": "Unitree 宇树 官方产品图",
+        "caption": "Dex5系列官方示意图；两版本共用，压力阵列配置以型号参数为准"
+      },
+      "research": [],
+      "tactileStatus": "no",
+      "driveGroup": "空心杯电机",
+      "brandId": "unitree",
+      "brandEn": "Unitree Robotics",
+      "aliases": [
+        "Unitree",
+        "Unitree 宇树",
+        "宇树科技 Unitree",
+        "Unitree Robotics"
+      ],
+      "originalBrand": "Unitree 宇树"
+    },
+    {
+      "id": "IN-RH56DFX-2R",
+      "brand": "INSPIRE ROBOTS 因时",
+      "model": "RH56DFX-2R 无腕版",
+      "origin": "中国",
+      "category": "仿人五指手",
+      "status": "商用",
+      "position": "力量与速度折中，传统五指抓取及手势研究",
+      "drive": "微型电动驱动",
+      "transmission": "官网当前页未细分传动机构",
+      "protocol": [
+        "RS485"
+      ],
+      "tactile": "集成位置与力传感器；此配置无触觉阵列",
+      "availability": "官方产品目录在列；供货配置与交期需询厂",
+      "openSource": {
+        "status": "未核实开放源码许可",
+        "url": null
+      },
+      "notes": "官网列6DOF、12运动关节，但本页未明确主动/被动口径，未将12关节填作机械DOF。拇指15N，四指各10N；不将其求和当全手抓力。",
+      "sourceIds": [
+        "IN-DFX"
+      ],
+      "metrics": {
+        "fingers": {
+          "value": 5,
+          "unit": "指",
+          "source": "IN-DFX",
+          "condition": "本体手指数",
+          "qual": "标称",
+          "page": null
+        },
+        "massKg": {
+          "value": 0.54,
+          "unit": "kg",
+          "source": "IN-DFX",
+          "condition": "单手本体质量；配置见条目",
+          "qual": "标称",
+          "page": null
+        },
+        "fingertipForceN": {
+          "value": 10,
+          "unit": "N",
+          "source": "IN-DFX",
+          "condition": "四指指尖各10N；拇指15N",
+          "qual": "标称",
+          "page": null
+        },
+        "repeatabilityMm": {
+          "value": 0.2,
+          "unit": "mm",
+          "source": "IN-DFX",
+          "condition": "重复定位精度±0.20mm",
+          "qual": "标称",
+          "page": null
+        },
+        "reportedDof": {
+          "value": 6,
+          "unit": "DOF",
+          "source": "IN-DFX",
+          "condition": "官网Degrees of freedom原值，主动/被动定义未明；12运动关节另记，不等同12独立DOF",
+          "qual": "标称",
+          "page": null
+        }
+      },
+      "image": {
+        "path": "assets/hands/inspire-rh56dfx.jpg",
+        "pageUrl": "https://en.inspire-robots.com/product/rh56dfx/",
+        "credit": "INSPIRE 因时 官方产品图",
+        "caption": "RH56DFX-2R 无腕版 官方图，非生成图"
+      },
+      "research": [],
+      "tactileStatus": "no",
+      "driveGroup": "电动驱动（未细分）",
+      "brandId": "inspire-robots",
+      "brandEn": "INSPIRE ROBOTS",
+      "aliases": [
+        "INSPIRE 因时",
+        "INSPIRE ROBOTS 因时",
+        "INSPIRE",
+        "INSPIRE ROBOTS"
+      ],
+      "originalBrand": "INSPIRE 因时"
+    },
+    {
+      "id": "IN-RH56H1-42R-T2",
+      "brand": "INSPIRE ROBOTS 因时",
+      "model": "RH56H1-42R-T2",
+      "origin": "中国",
+      "category": "仿人五指手",
+      "status": "商用",
+      "position": "紧凑金属结构五指手，适配轻量化本体集成",
+      "drive": "电动驱动；型号未披露",
+      "transmission": "官网未细分",
+      "protocol": [
+        "RS485",
+        "CAN FD"
+      ],
+      "tactile": "6组触觉传感器",
+      "availability": "官方产品目录在列；供货配置与交期需询厂",
+      "openSource": {
+        "status": "未核实开放源码许可",
+        "url": null
+      },
+      "notes": "官网列6DOF、11运动关节，未明确主动定义；不将关节数当DOF。单指8kg为静态被动负载，不当作整手抓取载荷。",
+      "sourceIds": [
+        "IN-H1"
+      ],
+      "metrics": {
+        "fingers": {
+          "value": 5,
+          "unit": "指",
+          "source": "IN-H1",
+          "condition": "本体手指数",
+          "qual": "标称",
+          "page": null
+        },
+        "massKg": {
+          "value": 0.47,
+          "unit": "kg",
+          "source": "IN-H1",
+          "condition": "单手本体质量；配置见条目",
+          "qual": "标称",
+          "page": null
+        },
+        "fingertipForceN": {
+          "value": 10,
+          "unit": "N",
+          "source": "IN-H1",
+          "condition": "四指指尖≥10N；拇指≥15N",
+          "qual": "≥",
+          "page": null
+        },
+        "repeatabilityMm": {
+          "value": 0.2,
+          "unit": "mm",
+          "source": "IN-H1",
+          "condition": "重复定位精度±0.2mm",
+          "qual": "标称",
+          "page": null
+        },
+        "reportedDof": {
+          "value": 6,
+          "unit": "DOF",
+          "source": "IN-H1",
+          "condition": "官网DOF原值，主动/被动定义未明；11运动关节另记",
+          "qual": "标称",
+          "page": null
+        },
+        "sensorGroupCount": {
+          "value": 6,
+          "unit": "组",
+          "source": "IN-H1",
+          "condition": "触觉传感器组数，不是触觉点数量",
+          "qual": "标称",
+          "page": null
+        }
+      },
+      "image": {
+        "path": "assets/hands/inspire-rh56h1.jpg",
+        "pageUrl": "https://en.inspire-robots.com/product/rh56h1/",
+        "credit": "INSPIRE 因时 官方产品图",
+        "caption": "RH56H1-42R-T2 官方图，非生成图"
+      },
+      "research": [],
+      "tactileStatus": "yes",
+      "driveGroup": "电动驱动（未细分）",
+      "brandId": "inspire-robots",
+      "brandEn": "INSPIRE ROBOTS",
+      "aliases": [
+        "INSPIRE 因时",
+        "INSPIRE ROBOTS 因时",
+        "INSPIRE",
+        "INSPIRE ROBOTS"
+      ],
+      "originalBrand": "INSPIRE 因时"
+    },
+    {
+      "id": "LK-L6",
+      "brand": "Linkerbot 灵心巧手",
+      "model": "Linker Hand L6",
+      "origin": "中国",
+      "category": "仿人五指手",
+      "status": "商用",
+      "position": "轻量五指抓取与精密装配",
+      "drive": "自研无刷电机+滚珠丝杠电缸",
+      "transmission": "连杆传动",
+      "protocol": [
+        "CAN",
+        "RS485"
+      ],
+      "tactile": "当前规格未明确阵列配置",
+      "availability": "官方产品目录在列；供货配置与交期需询厂",
+      "openSource": {
+        "status": "未核实开放源码许可",
+        "url": null
+      },
+      "notes": "6主动+5被动。丝杠200N推力不是指尖力。最大负载28kg未披露完整姿态、接触与持续时间，不与动态抓取负载直接等同。",
+      "sourceIds": [
+        "LK-L6"
+      ],
+      "metrics": {
+        "fingers": {
+          "value": 5,
+          "unit": "指",
+          "source": "LK-L6",
+          "condition": "本体手指数",
+          "qual": "标称",
+          "page": null
+        },
+        "activeDof": {
+          "value": 6,
+          "unit": "DOF",
+          "source": "LK-L6",
+          "condition": "官网明确独立/主动驱动自由度",
+          "qual": "标称",
+          "page": null
+        },
+        "mechanicalDof": {
+          "value": 11,
+          "unit": "DOF",
+          "source": "LK-L6",
+          "condition": "官网总自由度，含被动/耦合关节；与主动DOF分列",
+          "qual": "标称",
+          "page": null
+        },
+        "massKg": {
+          "value": 0.607,
+          "unit": "kg",
+          "source": "LK-L6",
+          "condition": "单手本体质量；配置见条目",
+          "qual": "标称",
+          "page": null
+        },
+        "payloadKg": {
+          "value": 28,
+          "unit": "kg",
+          "source": "LK-L6",
+          "condition": "官网最大负载；测试姿态与持续时间未披露",
+          "qual": "标称",
+          "page": null
+        },
+        "gripForceN": {
+          "value": 50,
+          "unit": "N",
+          "source": "LK-L6",
+          "condition": "五指最大抓握力",
+          "qual": "标称",
+          "page": null
+        },
+        "fingertipForceN": {
+          "value": 15,
+          "unit": "N",
+          "source": "LK-L6",
+          "condition": "四指最大指尖力；拇指12N",
+          "qual": "标称",
+          "page": null
+        },
+        "repeatabilityMm": {
+          "value": 0.2,
+          "unit": "mm",
+          "source": "LK-L6",
+          "condition": "官网<±0.2mm",
+          "qual": "<",
+          "page": null
+        }
+      },
+      "image": {
+        "path": "assets/hands/linker-l6.png",
+        "pageUrl": "https://linkerhand.com/details/LinkerHandL6/",
+        "credit": "Linkerbot 灵心巧手 官方产品图",
+        "caption": "Linker Hand L6 官方图，非生成图"
+      },
+      "research": [],
+      "tactileStatus": "unknown",
+      "driveGroup": "无刷电机",
+      "brandId": "linkerbot",
+      "brandEn": "Linkerbot",
+      "aliases": [
+        "Linkerbot 灵心巧手",
+        "Linkerbot"
+      ]
+    },
+    {
+      "id": "BC-REVO2-TOUCH",
+      "brand": "BrainCo 强脑科技",
+      "model": "Revo 2 TOUCH",
+      "origin": "中国",
+      "category": "仿人五指手",
+      "status": "商用",
+      "position": "紧凑型仿生手，机器人集成与操作研究",
+      "drive": "6电机闭环伺服，磁编码器",
+      "transmission": "当前参数页未细分机构",
+      "protocol": [
+        "RS485",
+        "CAN FD",
+        "EtherCAT"
+      ],
+      "tactile": "多维指尖触觉模块",
+      "availability": "官方产品目录在列；供货配置与交期需询厂",
+      "openSource": {
+        "status": "官方SDK及示例公开；不等于硬件开源",
+        "url": "https://github.com/BrainCoTech"
+      },
+      "notes": "11总DOF中6主动。≥15N是捏持力，非单指尖力，不填fingertipForceN。0.1°是角度控制精度，不能改写为mm。≥20kg最大负载未披露测试姿态。",
+      "sourceIds": [
+        "BC-R2",
+        "BC-R2FAQ"
+      ],
+      "metrics": {
+        "fingers": {
+          "value": 5,
+          "unit": "指",
+          "source": "BC-R2",
+          "condition": "本体手指数",
+          "qual": "标称",
+          "page": null
+        },
+        "activeDof": {
+          "value": 6,
+          "unit": "DOF",
+          "source": "BC-R2",
+          "condition": "官网明确独立/主动驱动自由度",
+          "qual": "标称",
+          "page": null
+        },
+        "mechanicalDof": {
+          "value": 11,
+          "unit": "DOF",
+          "source": "BC-R2",
+          "condition": "官网总自由度，含被动/耦合关节；与主动DOF分列",
+          "qual": "标称",
+          "page": null
+        },
+        "massKg": {
+          "value": 0.383,
+          "unit": "kg",
+          "source": "BC-R2",
+          "condition": "单手本体质量；配置见条目",
+          "qual": "标称",
+          "page": null
+        },
+        "lengthMm": {
+          "value": 160,
+          "unit": "mm",
+          "source": "BC-R2",
+          "condition": "官网长/高度定义",
+          "qual": "标称",
+          "page": null
+        },
+        "gripForceN": {
+          "value": 50,
+          "unit": "N",
+          "source": "BC-R2",
+          "condition": "整拳握力≥50N",
+          "qual": "≥",
+          "page": null
+        },
+        "payloadKg": {
+          "value": 20,
+          "unit": "kg",
+          "source": "BC-R2",
+          "condition": "官网Max Payload ≥20kg，试验条件未披露",
+          "qual": "≥",
+          "page": null
+        },
+        "actuators": {
+          "value": 6,
+          "unit": "个",
+          "source": "BC-R2FAQ",
+          "condition": "官方FAQ明确单控制器驱动六电机",
+          "qual": "标称",
+          "page": null
+        }
+      },
+      "image": {
+        "path": "assets/hands/brainco-revo2.webp",
+        "pageUrl": "https://brainco.tech/docs/revolimb-hand/en/revo2/parameters.html",
+        "credit": "BrainCo 强脑科技 官方产品图",
+        "caption": "Revo 2 TOUCH 官方图，非生成图"
+      },
+      "research": [],
+      "tactileStatus": "yes",
+      "driveGroup": "电动驱动（未细分）",
+      "brandId": "brainco",
+      "brandEn": "BrainCo",
+      "aliases": [
+        "BrainCo 强脑科技",
+        "BrainCo"
+      ]
+    },
+    {
+      "id": "orca-v21-base",
+      "brand": "ORCA Dexterity",
+      "model": "orcahand V2.1 base / 1100",
+      "origin": "瑞士（ETH 项目源流）",
+      "category": "仿人五指手",
+      "status": "商用",
+      "position": "ORCA 当前基础全驱动平台，可购买组装件或依据开放资料自制。",
+      "drive": "Dynamixel 或 Feetech 电动舵机选项；共 17 驱动。",
+      "transmission": "腱驱动；V2 改进卷线轮支承与装配结构。",
+      "protocol": [
+        "USB / USB-C",
+        "Python orca_core"
+      ],
+      "tactile": "基础版无触觉；Touch 为另一型号。关节位置传感升级为选项。",
+      "tactileStatus": "no",
+      "availability": "官方商店提供组装手与 BOM kit；交付期按询价确认。",
+      "openSource": {
+        "status": "CAD、打印文件、BOM 与装配指南开放；以各仓库许可为准",
+        "url": "https://www.orcahand.com/getting-started"
+      },
+      "notes": "当前官方硬件页标为 V2.1 base；与 V2.0 Touch 分开。；17 DoF 包含 1 个腕部；不沿用 V1 论文质量、触觉或耐久指标。",
+      "sourceIds": [
+        "ORCA-FULL",
+        "ORCA-HARDWARE",
+        "ORCA-GUIDE",
+        "ORCA-SHOP"
+      ],
+      "metrics": {
+        "fingers": {
+          "value": 5,
+          "unit": "指",
+          "source": "ORCA-FULL",
+          "condition": "五指构型，不含腕"
+        },
+        "activeDof": {
+          "value": 17,
+          "unit": "DoF",
+          "source": "ORCA-FULL",
+          "condition": "16 个指部独立驱动轴 + 1 腕部"
+        },
+        "mechanicalDof": {
+          "value": 17,
+          "unit": "DoF",
+          "source": "ORCA-FULL",
+          "condition": "官方 fully independent joints，包含腕"
+        },
+        "actuators": {
+          "value": 17,
+          "unit": "个",
+          "source": "ORCA-FULL",
+          "condition": "16 finger actuators + 1 wrist"
+        }
+      },
+      "image": {
+        "path": "assets/hands/orca-v2.png",
+        "pageUrl": "https://www.orcahand.com/shop",
+        "credit": "ORCA Dexterity",
+        "caption": "官方基础版 1100 正面产品图。"
+      },
+      "research": [
+        {
+          "name": "从 ORCA V1 到 V2",
+          "url": "https://www.orcahand.com/getting-started",
+          "note": "官方版本说明；V2 不应继承 V1 论文的全部测试结论。"
+        }
+      ],
+      "driveGroup": "智能舵机",
+      "brandId": "orca-dexterity",
+      "brandEn": "ORCA Dexterity",
+      "aliases": [
+        "ORCA Dexterity"
+      ]
+    },
+    {
+      "id": "allegro-hand-v4",
+      "brand": "Wonik Robotics",
+      "model": "Allegro Hand V4",
+      "origin": "韩国",
+      "category": "多指灵巧手",
+      "status": "商用",
+      "position": "紧凑四指、独立力矩控制的商用科研手。",
+      "drive": "DC 电机；16 个独立控制关节。",
+      "transmission": "关节齿轮减速，官方列示减速比 369:1。",
+      "protocol": [
+        "CAN"
+      ],
+      "tactile": "所引用 V4 规格未明确列出标配触觉阵列；关节使用电位计位置反馈。",
+      "tactileStatus": "unknown",
+      "availability": "官方仍有 V4 产品与开发资料页面；实际供货版本及交期需询价。",
+      "openSource": {
+        "status": "开发资料及软件接口可用；硬件未声明开源",
+        "url": "https://allegrohand.com/sub/product/p.php?idx=1"
+      },
+      "notes": "只收 V4；不从 V5 或第三方触觉改装套件借用指标。；5 kg 为厂商载荷声明；该页未给统一抓型和姿态条件。",
+      "sourceIds": [
+        "ALLEGRO-V4"
+      ],
+      "metrics": {
+        "fingers": {
+          "value": 4,
+          "unit": "指",
+          "source": "ALLEGRO-V4",
+          "condition": "含拇指；不计安装端或机器人腕"
+        },
+        "activeDof": {
+          "value": 16,
+          "unit": "DoF",
+          "source": "ALLEGRO-V4",
+          "condition": "官方 4 fingers × 4 independent torque-controlled joints；无腕"
+        },
+        "mechanicalDof": {
+          "value": 16,
+          "unit": "DoF",
+          "source": "ALLEGRO-V4",
+          "condition": "V4 十六个独立手指关节"
+        },
+        "massKg": {
+          "value": 1.08,
+          "unit": "kg",
+          "source": "ALLEGRO-V4",
+          "condition": "官方 total weight"
+        },
+        "payloadKg": {
+          "value": 5,
+          "unit": "kg",
+          "source": "ALLEGRO-V4",
+          "condition": "厂商 payload；未披露抓型、接触材料与姿态"
+        }
+      },
+      "image": {
+        "path": "assets/hands/allegro-v4.png",
+        "pageUrl": "https://allegrohand.com/sub/product/p.php?idx=1",
+        "credit": "Wonik Robotics",
+        "caption": "官方 Allegro Hand V4 产品图。"
+      },
+      "research": [
+        {
+          "name": "厂商 Application Cases",
+          "url": "https://allegrohand.com/sub/product/p.php?idx=1",
+          "note": "含科研应用入口；不以案例数量推断市场排名。"
+        }
+      ],
+      "driveGroup": "直流电机（未细分）",
+      "brandId": "wonik-robotics",
+      "brandEn": "Wonik Robotics",
+      "aliases": [
+        "Wonik Robotics"
+      ]
+    },
+    {
+      "id": "qb-softhand-research",
+      "brand": "qbrobotics",
+      "model": "qb SoftHand Research",
+      "origin": "意大利",
+      "category": "欠驱动柔顺手",
+      "status": "商用",
+      "position": "基于人手协同与柔顺关节的单驱动科研抓取平台。",
+      "drive": "1 个电机。",
+      "transmission": "单电机腱传动与关节耦合；柔顺、自适应抓取。",
+      "protocol": [
+        "USB",
+        "RS485",
+        "ROS / ROS 2"
+      ],
+      "tactile": "本产品页未披露独立触觉阵列。",
+      "tactileStatus": "unknown",
+      "availability": "商业科研版本，可通过厂商询价。",
+      "openSource": {
+        "status": "提供 SDK 与 ROS/ROS 2 软件资源；硬件开源范围需按下载许可确认",
+        "url": "https://qbrobotics.com/product/qb-softhand-research/"
+      },
+      "notes": "这是商业 qb SoftHand Research，不是 SoftHand 2。；单协同驱动输入与厂商标称 19 DoF 需分列；后者不表示 19 独立受控轴。；62 N 与 1.1 kg 均限定 pinch grasp 配置。",
+      "sourceIds": [
+        "QB-SHR"
+      ],
+      "metrics": {
+        "fingers": {
+          "value": 5,
+          "unit": "指",
+          "source": "QB-SHR",
+          "condition": "五指仿人构型，不含腕"
+        },
+        "activeDof": {
+          "value": 1,
+          "unit": "DoF",
+          "source": "QB-SHR",
+          "condition": "单电机协同输入；欠驱动手，不代表只存在一个物理关节"
+        },
+        "reportedDof": {
+          "value": 19,
+          "unit": "DoF",
+          "source": "QB-SHR",
+          "condition": "厂商 anthropomorphic DOF；不解释为 19 主动自由度"
+        },
+        "actuators": {
+          "value": 1,
+          "unit": "个",
+          "source": "QB-SHR",
+          "condition": "单电机驱动全部手指"
+        },
+        "massKg": {
+          "value": 0.77,
+          "unit": "kg",
+          "source": "QB-SHR",
+          "condition": "官方产品质量"
+        },
+        "gripForceN": {
+          "value": 62,
+          "unit": "N",
+          "source": "QB-SHR",
+          "condition": "厂商 pinch grasp configuration，不是所有抓型统一额定力"
+        },
+        "payloadKg": {
+          "value": 1.1,
+          "unit": "kg",
+          "source": "QB-SHR",
+          "condition": "厂商 pinch grasp configuration"
+        }
+      },
+      "image": {
+        "path": "assets/hands/qb-softhand.png",
+        "pageUrl": "https://qbrobotics.com/product/qb-softhand-research/",
+        "credit": "qbrobotics",
+        "caption": "官方 qb SoftHand Research 产品图。"
+      },
+      "research": [
+        {
+          "name": "Pisa / IIT SoftHand 技术商业科研平台",
+          "url": "https://qbrobotics.com/product/qb-softhand-research/",
+          "note": "厂商阐述协同驱动与柔顺关节设计。"
+        }
+      ],
+      "driveGroup": "电动驱动（未细分）",
+      "brandId": "qbrobotics",
+      "brandEn": "qbrobotics",
+      "aliases": [
+        "qbrobotics / Pisa–IIT SoftHand lineage",
+        "qbrobotics"
+      ],
+      "originalBrand": "qbrobotics / Pisa–IIT SoftHand lineage"
+    },
+    {
+      "id": "schunk-svh-left",
+      "brand": "SCHUNK",
+      "model": "SVH 左手（1545589）",
+      "origin": "德国",
+      "category": "仿人五指手",
+      "status": "商用",
+      "position": "一体化五指商用手；驱动及电子模块集成于掌腕部。",
+      "drive": "9 个电驱动。",
+      "transmission": "紧凑电机与丝杠机构驱动手指，部分关节耦合。",
+      "protocol": [
+        "RS485",
+        "ROS / ROS 2"
+      ],
+      "tactile": "引用的官方产品规格未披露触觉阵列。",
+      "tactileStatus": "unknown",
+      "availability": "官方目录产品；供货、左右手与具体版本需询价。",
+      "openSource": {
+        "status": "提供 ROS 驱动资源；硬件为商业产品",
+        "url": "https://schunk.com/us/en/gripping-systems/special-gripper/svh/c/PGR_3161"
+      },
+      "notes": "20 为厂商标称 DoF，9 为驱动数量，不能直接将两者互换。；0.85 kg 仅为人机协作应用的推荐搬运质量条件；非所有抓型的机械极限。",
+      "sourceIds": [
+        "SCHUNK-SVH",
+        "SCHUNK-SVH-L"
+      ],
+      "metrics": {
+        "fingers": {
+          "value": 5,
+          "unit": "指",
+          "source": "SCHUNK-SVH",
+          "condition": "五指手；不含独立驱动腕"
+        },
+        "reportedDof": {
+          "value": 20,
+          "unit": "DoF",
+          "source": "SCHUNK-SVH-L",
+          "condition": "厂商标称自由度；含耦合运动，非 20 独立驱动"
+        },
+        "actuators": {
+          "value": 9,
+          "unit": "个",
+          "source": "SCHUNK-SVH",
+          "condition": "官方 9 drives；主动自由度不从电机数直接推断"
+        },
+        "massKg": {
+          "value": 1.3,
+          "unit": "kg",
+          "source": "SCHUNK-SVH-L",
+          "condition": "官方产品质量"
+        },
+        "lengthMm": {
+          "value": 242.5,
+          "unit": "mm",
+          "source": "SCHUNK-SVH-L",
+          "condition": "官方总长度"
+        },
+        "widthMm": {
+          "value": 92,
+          "unit": "mm",
+          "source": "SCHUNK-SVH-L",
+          "condition": "官方宽度"
+        },
+        "payloadKg": {
+          "value": 0.85,
+          "unit": "kg",
+          "source": "SCHUNK-SVH-L",
+          "condition": "人机协作 HRC 应用搬运质量；不适用于所有抓型"
+        }
+      },
+      "image": {
+        "path": "assets/hands/schunk.webp",
+        "pageUrl": "https://schunk.com/us/en/gripping-systems/special-gripper/svh/c/PGR_3161",
+        "credit": "SCHUNK",
+        "caption": "官方 SVH 五指产品图；左手配置以本条型号为准。"
+      },
+      "research": [
+        {
+          "name": "SCHUNK SVH 开放控制接口",
+          "url": "https://schunk.com/us/en/gripping-systems/special-gripper/svh/c/PGR_3161",
+          "note": "官方列出 ROS 1/2 支持；不将供货产品本身视为开源硬件。"
+        }
+      ],
+      "driveGroup": "电动驱动（未细分）",
+      "brandId": "schunk",
+      "brandEn": "SCHUNK",
+      "aliases": [
+        "SCHUNK"
+      ]
+    },
+    {
+      "id": "barrett-bh8-282",
+      "brand": "Barrett Technology",
+      "model": "BarrettHand BH8-282",
+      "origin": "美国",
+      "category": "多指灵巧手",
+      "status": "商用",
+      "position": "三指、可变手指展开构型的自适应抓取平台。",
+      "drive": "4 个无刷电机。",
+      "transmission": "专有离合与欠驱动关节；两个手指具侧向展开运动。",
+      "protocol": [
+        "CAN",
+        "RS232",
+        "USB adapters"
+      ],
+      "tactile": "可选 96 个电容触觉单元；另列指尖力矩传感配置，不能合并计数。",
+      "tactileStatus": "optional",
+      "availability": "商业询价产品；触觉选件依订单。",
+      "openSource": {
+        "status": "随购买提供完整源代码和例程；公开开源许可未确认",
+        "url": "https://web.barrett.com/support/BarrettHand_Documentation/BH8-282_Datasheet.pdf"
+      },
+      "notes": "8 为总手部运动轴、4 为电机数，不代表 8 个独立控制轴。；6+ kg 按原文保留为下限式载荷声明。；手册的 204 × 90 × 54 mm 是 AC 电源尺寸，不能作为手部外形尺寸。",
+      "sourceIds": [
+        "BARRETT-282",
+        "BARRETT-PAGE"
+      ],
+      "metrics": {
+        "fingers": {
+          "value": 3,
+          "unit": "指",
+          "source": "BARRETT-282",
+          "condition": "1 个固定指向 + 2 个可侧向旋转手指",
+          "page": 2
+        },
+        "jointCount": {
+          "value": 8,
+          "unit": "轴",
+          "source": "BARRETT-282",
+          "condition": "官方 total hand axes；包含手指展开轴，非 8 个独立驱动",
+          "page": 2
+        },
+        "actuators": {
+          "value": 4,
+          "unit": "个",
+          "source": "BARRETT-282",
+          "condition": "官方 total hand motors",
+          "page": 2
+        },
+        "massKg": {
+          "value": 0.98,
+          "unit": "kg",
+          "source": "BARRETT-282",
+          "condition": "官方手部质量；不含外置 AC 电源",
+          "page": 2
+        },
+        "payloadKg": {
+          "value": 6,
+          "unit": "kg",
+          "source": "BARRETT-282",
+          "condition": "原文 6+ kg；抓型和测试姿态未详述",
+          "page": 2,
+          "qual": "≥"
+        },
+        "sensorCount": {
+          "value": 96,
+          "unit": "taxels",
+          "source": "BARRETT-282",
+          "condition": "可选电容触觉阵列，共 96 active cells；不含额外指尖力矩传感器",
+          "page": 2
+        }
+      },
+      "image": {
+        "path": "assets/hands/barrett.jpg",
+        "pageUrl": "https://advanced.barrett.com/barretthand",
+        "credit": "Barrett Technology",
+        "caption": "官方 BarrettHand 产品摄影。"
+      },
+      "research": [
+        {
+          "name": "BH8-282 官方技术资料",
+          "url": "https://web.barrett.com/support/BarrettHand_Documentation/BH8-282_Datasheet.pdf",
+          "note": "手部、电源、触觉选项与运动学的统计范围分别记录。"
+        }
+      ],
+      "driveGroup": "无刷电机",
+      "brandId": "barrett",
+      "brandEn": "Barrett Technology",
+      "aliases": [
+        "Barrett Technology"
+      ]
+    }
+  ]
+}
