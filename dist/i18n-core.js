@@ -1,6 +1,6 @@
-import messages from './i18n-messages.js?v=0.2.2-cm20261103-r2';
+import messages from './i18n-messages.js?v=morph-20261109';
 export const supportedLanguages=['zh','en'];
-export function resolveLanguage(query='',stored=''){const q=new URLSearchParams(query).get('lang');return supportedLanguages.includes(q)?q:supportedLanguages.includes(stored)?stored:'zh';}
+export function resolveLanguage(query='',stored=''){const q=new URLSearchParams(query).get('lang');return supportedLanguages.includes(q)?q:supportedLanguages.includes(stored)?stored:'en';}
 const dynamic=[
  [/^(.+) \/ (ACTUATOR PROFILE|PLATFORM PROFILE)$/,m=>translateText(m[1],'en')+' / '+m[2]],
  [/^(收藏|取消收藏) (.+)$/,m=>(m[1]==='收藏'?'Save ':'Remove from favorites: ')+m[2]],
@@ -44,6 +44,6 @@ export function translateText(value,language='en'){
  const unit=trimmed.match(/^(.+?)( (?:kg|N·m|m\/s|h|m|Wh|DOF|rpm|mm|V|A))$/);if(unit&&messages[unit[1]])return text.replace(trimmed,messages[unit[1]]+unit[2]);
  return text;
 }
-export function languageUrl(raw,language,base='https://atlas.example/'){const u=new URL(raw,base);u.searchParams.set('lang',supportedLanguages.includes(language)?language:'zh');return u;}
+export function languageUrl(raw,language,base='https://atlas.example/'){const u=new URL(raw,base);u.searchParams.set('lang',supportedLanguages.includes(language)?language:'en');return u;}
 export function localizeCsv(csv,language){if(language!=='en')return csv;return csv.replace(/"((?:[^"]|"")*)"/g,(_,cell)=>'"'+translateText(cell.replaceAll('""','"'),'en').replaceAll('"','""')+'"');}
 export {messages};

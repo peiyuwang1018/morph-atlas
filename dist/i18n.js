@@ -1,5 +1,6 @@
-import {resolveLanguage,translateText,languageUrl,localizeCsv} from './i18n-core.js?v=0.2.2-cm20261103-r2';
-let saved='';try{saved=localStorage.getItem('atlas-language')||'';}catch{}
+import {resolveLanguage,translateText,languageUrl,localizeCsv} from './i18n-core.js?v=morph-20261109';
+// The new key adopts the English-first release once; later choices remain saved.
+let saved='';try{saved=localStorage.getItem('atlas-language-v2')||'';}catch{}
 let language=resolveLanguage(location.search,saved);
 const texts=new WeakMap(),attributes=new WeakMap();
 let observer,scheduled=false;
@@ -32,10 +33,10 @@ export function applyLanguage(){
  document.querySelectorAll('.language-source-note').forEach(el=>el.hidden=language!=='en');updateLinks();
  observer?.observe(document.documentElement,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['placeholder','aria-label','title','alt','content']});
 }
-export function setLanguage(next){if(!['zh','en'].includes(next))return;language=next;try{localStorage.setItem('atlas-language',language);}catch{}
+export function setLanguage(next){if(!['zh','en'].includes(next))return;language=next;try{localStorage.setItem('atlas-language-v2',language);}catch{}
  const u=languageUrl(location.href,language,location.href);if(document.body.dataset.docLocale&&document.body.dataset.docLocale!==language){u.pathname=language==='en'?u.pathname.replace('/docs/','/docs/en/').replace('/en/en/','/en/'):u.pathname.replace('/docs/en/','/docs/');location.assign(u.href);return;}history.replaceState(null,'',u.pathname+u.search+u.hash);applyLanguage();document.dispatchEvent(new CustomEvent('atlas:languagechange',{detail:{language}}));
 }
 document.addEventListener('click',event=>{if(event.target.closest('[data-language-toggle]')){setLanguage(language==='zh'?'en':'zh');return;}const button=event.target.closest('button[data-language]');if(button)setLanguage(button.dataset.language);});
-window.addEventListener('storage',event=>{if(event.key==='atlas-language'&&['zh','en'].includes(event.newValue)){language=event.newValue;applyLanguage();}});
+window.addEventListener('storage',event=>{if(event.key==='atlas-language-v2'&&['zh','en'].includes(event.newValue)){language=event.newValue;applyLanguage();}});
 function start(){if(document.body.dataset.docLocale&&document.body.dataset.docLocale!==language){setLanguage(language);return;}observer=new MutationObserver(()=>{if(scheduled)return;scheduled=true;queueMicrotask(()=>{scheduled=false;applyLanguage();});});applyLanguage();}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start,{once:true});else start();

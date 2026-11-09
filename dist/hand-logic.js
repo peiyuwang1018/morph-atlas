@@ -1,4 +1,4 @@
-import {translateText} from './i18n-core.js?v=0.2.2-cm20261103-r2';
+import {translateText} from './i18n-core.js?v=morph-20261109';
 const bilingualSearch=values=>values.flatMap(v=>[String(v??''),translateText(v,'en')]).join(' ').toLowerCase();
 export const metricDefinitions={fingers:['手指数','指'],activeDof:['主动 / 独立驱动自由度','DOF'],mechanicalDof:['机械自由度（含被动）','DOF'],reportedDof:['厂商标称 DOF（定义待核）','DOF'],jointCount:['物理 / 运动关节数','个'],actuators:['驱动器 / 电机数','个'],massKg:['记录质量','kg'],lengthMm:['长度 / 高度','mm'],widthMm:['宽度','mm'],gripForceN:['抓握力','N'],fingertipForceN:['指尖力','N'],payloadKg:['抓持负载','kg'],repeatabilityMm:['重复精度','mm'],sensorCount:['触觉单元 / 触点数','个'],sensorGroupCount:['触觉传感器组数','组']};
 export const metricValue=(p,k)=>Number.isFinite(p.metrics?.[k]?.value)?p.metrics[k].value:null;

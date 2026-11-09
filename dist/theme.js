@@ -1,7 +1,7 @@
 /* Apply saved appearance before styles paint; catalogue state stays independent. */
 (() => {
- const key='atlas-appearance',colors=['blue','red','green','yellow'];
- const read=raw=>{try{const value=JSON.parse(raw||'{}');return {color:colors.includes(value?.color)?value.color:'green',mode:value?.mode==='dark'?'dark':'light'};}catch{return {color:'green',mode:'light'};}};
+ const key='atlas-appearance-v2',colors=['blue','red','green','yellow'];
+ const read=raw=>{try{const value=JSON.parse(raw||'{}');return {color:colors.includes(value?.color)?value.color:'blue',mode:value?.mode==='dark'?'dark':'light'};}catch{return {color:'blue',mode:'light'};}};
  let saved='';try{saved=localStorage.getItem(key)||'';}catch{}
  let state=read(saved),picker;
  function apply(){

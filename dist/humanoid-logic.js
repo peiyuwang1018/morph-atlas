@@ -1,4 +1,4 @@
-import {translateText} from './i18n-core.js?v=0.2.2-cm20261103-r2';
+import {translateText} from './i18n-core.js?v=morph-20261109';
 const bilingualSearch=values=>values.flatMap(v=>[String(v??''),translateText(v,'en')]).join(' ').toLowerCase();
 export const metricDefinitions={heightM:['高度','m'],massKg:['整机质量','kg'],dof:['全身自由度','DOF'],speedMps:['披露移动速度','m/s'],runtimeH:['披露续航','h'],payloadKg:['整机 / 双臂搬运负载','kg'],singleArmPayloadKg:['单臂负载','kg'],peakJointTorqueNm:['最大关节峰值扭矩','N·m'],batteryWh:['电池能量','Wh']};
 export const regionLabels={china:'中国',europe:'欧洲','north-america':'北美','asia-other':'亚洲其他',unknown:'待核'};

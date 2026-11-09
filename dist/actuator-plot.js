@@ -1,5 +1,5 @@
-import {plotAxes,buildPlotData,axisDomain,scaleValue,axisTicks,plotCsv,normalizePlotOptions,countedOptions} from './actuator-analysis.js?v=0.2.2-cm20261103-r2';
-import {getLanguage,t,csvInLanguage} from './i18n.js?v=0.2.2-cm20261103-r2';
+import {plotAxes,buildPlotData,axisDomain,scaleValue,axisTicks,plotCsv,normalizePlotOptions,countedOptions} from './actuator-analysis.js?v=morph-20261109';
+import {getLanguage,t,csvInLanguage} from './i18n.js?v=morph-20261109';
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const palette=['#287c72','#d07d3e','#596bc4','#c35d81','#7d8a31','#785cac','#248dab','#af653b','#4b8e59','#b94449','#6c7c8a','#9b8b64','#697fc5','#d08183'];
 const num=n=>n===0?'0':Math.abs(n)<.001||Math.abs(n)>=100000?n.toExponential(1):Number(n.toPrecision(4)).toLocaleString('en-US',{maximumFractionDigits:5});

@@ -1,8 +1,8 @@
-import {csvInLanguage,getLanguage} from './i18n.js?v=0.2.2-cm20261103-r2';
-import {countedOptions,normalizeFavorites} from './actuator-analysis.js?v=0.2.2-cm20261103-r2';
-import {createActuatorPlot} from './actuator-plot.js?v=0.2.2-cm20261103-r2';
-import './site-shell.js?v=0.2.2-cm20261103-r2';
-import {metricDefinitions as defs,metricValue,formatMetric,filterActuators,sortActuators,csvForActuators,integrationLabel,driverLabel,parameterSide} from './actuator-logic.js?v=0.2.2-cm20261103-r2';
+import {csvInLanguage,getLanguage} from './i18n.js?v=morph-20261109';
+import {countedOptions,normalizeFavorites} from './actuator-analysis.js?v=morph-20261109';
+import {createActuatorPlot} from './actuator-plot.js?v=morph-20261109';
+import './site-shell.js?v=morph-20261109';
+import {metricDefinitions as defs,metricValue,formatMetric,filterActuators,sortActuators,csvForActuators,integrationLabel,driverLabel,parameterSide} from './actuator-logic.js?v=morph-20261109';
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt=(p,key)=>formatMetric(p.metrics?.[key]);

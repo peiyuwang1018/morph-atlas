@@ -1,4 +1,4 @@
-import {metricDefinitions,metricValue} from './actuator-logic.js?v=0.2.2-cm20261103-r2';
+import {metricDefinitions,metricValue} from './actuator-logic.js?v=morph-20261109';
 export function countedOptions(records,key='brand'){const counts=new Map();for(const p of records){const v=p[key];counts.set(v,(counts.get(v)||0)+1);}return [...counts].map(([value,count])=>({value,count})).sort((a,b)=>b.count-a.count||a.value.localeCompare(b.value,'en'));}
 export const plotAxes={...metricDefinitions,ratedSpecificTorque:['额定扭矩 / 质量','N·m/kg'],peakSpecificTorque:['峰值扭矩 / 质量','N·m/kg']};
 export const defaultPlotOptions={x:'massKg',y:'ratedTorque',xScale:'linear',yScale:'linear',colorBy:'brand',layer:'output',labels:false};

@@ -1,4 +1,4 @@
-import {translateText} from './i18n-core.js?v=0.2.2-cm20261103-r2';
+import {translateText} from './i18n-core.js?v=morph-20261109';
 const bilingualSearch=values=>values.flatMap(v=>[String(v??''),translateText(v,'en')]).join(' ').toLowerCase();
 /** Metric semantics remain explicit: peak and stall torque never substitute rated torque. */
 export const metricDefinitions={ratedPower:['厂商额定功率','W'],backdriveTorque:['反驱扭矩','N·m'],backlashArcmin:['回程间隙','arcmin'],kv:['电机 KV','rpm/V'],hollowBoreMm:['中空孔径','mm'],ratedTorque:['额定输出扭矩','N·m'],peakTorque:['峰值输出扭矩','N·m'],stallTorque:['堵转输出扭矩','N·m'],ratio:['减速比',':1'],massKg:['记录对象质量','kg'],voltage:['额定 / 测试电压','V'],ratedRpm:['额定输出转速','rpm'],noLoadRpm:['空载输出转速','rpm'],peakRpm:['最大输出转速','rpm'],diameterMm:['外径 / 宽度','mm'],lengthMm:['轴向长度 / 高度','mm'],encoderInputBits:['输入端编码器','bit'],encoderOutputBits:['输出端编码器','bit'],ratedCurrent:['额定电流','A'],peakCurrent:['峰值电流','A']};

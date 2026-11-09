@@ -1,6 +1,6 @@
-import {countedOptions} from './actuator-analysis.js?v=0.2.2-cm20261103-r2';
-import {csvInLanguage,getLanguage} from './i18n.js?v=0.2.2-cm20261103-r2';
-import './site-shell.js?v=0.2.2-cm20261103-r2';
+import {countedOptions} from './actuator-analysis.js?v=morph-20261109';
+import {csvInLanguage,getLanguage} from './i18n.js?v=morph-20261109';
+import './site-shell.js?v=morph-20261109';
 import {metricDefinitions as defs,metricValue,formatMetric,filterHands,sortHands,csvForHands,isChina,tactileLabels} from './hand-logic.js';
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

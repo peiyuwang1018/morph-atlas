@@ -1,4 +1,4 @@
-import {translateText} from './i18n-core.js?v=0.2.2-cm20261103-r2';
+import {translateText} from './i18n-core.js?v=morph-20261109';
 const bilingualSearch=values=>values.flatMap(v=>[String(v??''),translateText(v,'en')]).join(' ').toLowerCase();
 /** Pure catalogue logic. All filters operate on configuration records before family grouping. */
 export function brandGroup(p){if(p.brand.startsWith('ODRI'))return 'ODRI';if(p.brand==='ETH / ANYbotics')return 'ANYbotics';return p.brand;}
