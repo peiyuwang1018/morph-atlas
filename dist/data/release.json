@@ -1,0 +1,22 @@
+{
+  "version": "0.2.2",
+  "label": "v0.2.2",
+  "date": "2026-11-03",
+  "title": "机器人本体图鉴",
+  "stage": "CubeMars 产品矩阵补全",
+  "coverage": {
+    "actuatorConfigurations": 163,
+    "quadrupedConfigurations": 61,
+    "handRecords": 19,
+    "humanoidRecords": 56,
+    "humanoidPrimaryRecords": 38,
+    "humanoidBaselineRecords": 43,
+    "cubeMarsConfigurations": 74
+  },
+  "changes": [
+    "CubeMars扩展至74条型号/供电/反馈配置，覆盖AK/AKA/AKH/AKE/RI/RO/GL/G",
+    "AKE90-8 KV35膝关节拟选记录与外置驱动器边界",
+    "新增电机＋减速器集成层级、产品系列、驱动器配置、功率与额定转速筛选",
+    "规格、CSV、参数比较与散点图共用新增指标；保留原图鉴其他品牌"
+  ]
+}

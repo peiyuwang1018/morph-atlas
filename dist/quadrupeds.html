@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><script src="theme.js?v=20261030-r3"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f7f8">
+  <meta name="description" content="四足与轮足机器人研究平台库。检索整机性能、产品配置与关节证据，追溯每一项参数的原始来源。">
+  <title>四足机器人 · 机器人本体图鉴</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css?v=0.2.2-cm20261103-r2">
+  <link rel="stylesheet" href="atlas.css?v=0.2.2-cm20261103-r2">
+  <script type="module" src="app.js?v=0.2.2-cm20261103-r2"></script>
+<link rel="stylesheet" href="i18n.css?v=0.2.2-cm20261103-r2"><link rel="stylesheet" href="theme.css?v=20261030-r5"></head>
+<body data-section="quadrupeds">
+  <a class="skip-link" href="#results">跳到平台结果</a>
+  <header id="siteHeader" class="site-header"></header>
+
+  <main class="shell">
+    <section class="intro" aria-labelledby="pageTitle">
+      <div><p class="eyebrow"><span class="live-dot"></span> 机器人整机研究资料库</p><h1 id="pageTitle">四足机器人平台库<span class="title-period">.</span></h1><p class="intro-copy">浏览整机性能与产品配置，追溯关节、传动和原始证据。</p></div>
+      <div class="intro-stats"><div><strong id="familyCount">—</strong><span>平台家族</span></div><div><strong id="recordCount">61</strong><span>配置记录</span></div><div><strong id="sourceCount">50</strong><span>原始资料</span></div><p>资料核查 <time id="asOf">2026.10.29</time></p></div>
+    </section>
+
+    <div class="catalog-layout">
+      <button class="filter-shade" id="filterShade" aria-label="收起筛选器" hidden></button>
+      <aside class="filters" id="filterPanel" aria-label="平台筛选">
+        <div class="filter-top"><h2><span data-icon="sliders"></span>筛选平台</h2><button type="button" class="text-button" id="resetButton">重置</button><button type="button" class="icon-button mobile-close" id="closeFilters" aria-label="收起筛选器"><span data-icon="x"></span></button></div>
+        <div class="filter-section"><h3>厂商 / 研究机构</h3><div id="brandFilters" class="check-list"></div></div>
+        <div class="filter-section"><h3>运动形态</h3><div class="type-buttons" role="group" aria-label="运动形态"><button type="button" class="type-choice active" data-type="all" aria-pressed="true">全部</button><button type="button" class="type-choice" data-type="四足" aria-pressed="false">四足</button><button type="button" class="type-choice" data-type="轮足" aria-pressed="false">轮足</button></div></div>
+        <div class="filter-section"><h3>平台类别</h3><label class="check-row"><input type="checkbox" name="category" value="commercial"><span>商业产品 / 历史产品</span></label><label class="check-row"><input type="checkbox" name="category" value="research"><span>科研平台</span></label></div>
+        <div class="filter-section metric-filters"><h3>性能指标 <span class="unit-note">按记录值筛选</span></h3>
+          <label class="range-label">整机质量 <span>kg</span></label><div class="number-range"><input type="number" id="massMin" min="0" step="any" placeholder="最小" aria-label="最小整机质量，kg"><span>—</span><input type="number" id="massMax" min="0" step="any" placeholder="最大" aria-label="最大整机质量，kg"></div>
+          <label class="range-label" for="payloadMin">公开载重 ≥ <span>kg</span></label><input class="number-single" type="number" id="payloadMin" min="0" step="any" placeholder="不限">
+          <label class="range-label" for="speedMin">最高披露速度 ≥ <span>m/s</span></label><input class="number-single" type="number" id="speedMin" min="0" step="any" placeholder="不限">
+          <label class="range-label" for="runtimeMin">续航下值 ≥ <span>h</span></label><input class="number-single" type="number" id="runtimeMin" min="0" step="any" placeholder="不限">
+          <p class="filter-hint">载重按标称 / 持续值，不取静载或极限值。速度含实验结果，续航工况见详情。启用数值筛选时，缺失该指标的记录不匹配。</p>
+        </div>
+        <div class="filter-foot"><span data-icon="book"></span><p>每一项参数，都有出处。<br><span>保留版本差异与未披露数据。</span></p></div>
+      </aside>
+
+      <section class="results-area" id="results" aria-label="机器人平台结果">
+        <div class="catalog-toolbar"><div class="results-heading"><h2>探索平台 <span id="resultCount" aria-live="polite">—</span></h2><span id="matchingCount" class="matching-count"></span></div><button type="button" class="button button-outline mobile-filter" id="openFilters"><span data-icon="sliders"></span>筛选</button><div class="search-field"><span data-icon="search"></span><input type="search" id="searchInput" placeholder="搜索型号、机构、应用…" aria-label="搜索平台" autocomplete="off"><kbd>/</kbd></div></div>
+        <div class="view-toolbar"><div class="browse-modes" role="group" aria-label="记录展示范围"><button type="button" class="browse-mode active" data-scope="families" aria-pressed="true">按平台家族</button><button type="button" class="browse-mode" data-scope="records" aria-pressed="false">全部配置</button></div><div class="view-controls"><label class="sr-only" for="sortSelect">排序</label><select id="sortSelect"><option value="featured">研究精选</option><option value="name">名称 A–Z</option><option value="massAsc">质量从小到大</option><option value="massDesc">质量从大到小</option><option value="payloadDesc">载重从高到低</option><option value="speedDesc">速度从高到低</option><option value="runtimeDesc">续航下值从长到短</option></select><div class="view-toggle" role="group" aria-label="切换视图"><button class="icon-button active" type="button" data-view="cards" aria-pressed="true" aria-label="卡片视图" title="卡片视图"><span data-icon="grid"></span></button><button class="icon-button" type="button" data-view="list" aria-pressed="false" aria-label="列表视图" title="列表视图"><span data-icon="list"></span></button></div></div></div>
+        <div class="active-filters" id="activeFilters" hidden></div>
+        <div id="resultsContent" class="robot-grid" aria-live="polite"><div class="loading-state"><span class="loading-ring"></span> 正在载入平台资料…</div></div>
+        <div class="catalog-footer"><p><span class="legend-dot"></span> — 表示该版本未披露或尚待核实，不代表 0。</p><button type="button" id="dataButton">查看数据范围 <span data-icon="arrow-up-right"></span></button></div>
+      </section>
+    </div>
+    <footer class="site-footer"><span>ROBOT BODY CATALOGUE <b>/</b> 四足机器人</span><span>公开资料快照 · <time>2026-10-29</time></span><a href="data/source-matrix.xlsx" download>下载完整性能矩阵 <span data-icon="download"></span></a></footer>
+  </main>
+
+  <div class="compare-tray" id="compareTray" hidden><div class="compare-summary"><span data-icon="layers"></span><strong id="compareCount">0 个待比较</strong><span id="compareNames"></span></div><div class="compare-actions"><button type="button" class="text-button" id="clearCompare">清空</button><button type="button" class="button button-primary" id="compareButton">比较参数 <span data-icon="arrow-right"></span></button></div></div>
+  <dialog id="detailDialog" class="detail-dialog" aria-label="机器人平台详情"><div id="detailContent"></div></dialog>
+  <dialog id="compareDialog" class="compare-dialog" aria-labelledby="compareTitle"><div class="dialog-top"><div><p class="eyebrow">PLATFORM COMPARISON</p><h2 id="compareTitle">整机参数对照</h2></div><button type="button" class="icon-button" data-close="compareDialog" aria-label="关闭参数对照"><span data-icon="x"></span></button></div><div id="compareContent"></div></dialog>
+  <dialog id="methodDialog" class="method-dialog" aria-labelledby="methodTitle"><div class="dialog-top"><div><p class="eyebrow">DATA & METHODOLOGY</p><h2 id="methodTitle">指标与数据口径</h2></div><button type="button" class="icon-button" data-close="methodDialog" aria-label="关闭指标说明"><span data-icon="x"></span></button></div><div class="method-body"><p class="method-lead">把机器人放在同一张表里，也保留它们各自的测试条件。</p><div id="methodStats" class="method-stats"></div><h3>如何阅读参数</h3><dl><dt>质量与尺度</dt><dd>含电池、裸机、含上装及外部供能分别记录。站立外包络、机身尺寸和髋高也不混用。</dd><dt>载重</dt><dd>浏览与筛选采用公开的标称 / 持续载重。极限载重和站立静载在详情里单列。设计选型工况不当作已验证的载重能力。</dd><dt>速度</dt><dd>卡片显示最高已披露值，并在详情保留工作范围、实验室极限、跑步机及控制器条件。该数值不是所有场景下的持续速度。</dd><dt>续航</dt><dd>区分空载、带载、巡检任务、站立和待机。筛选取记录的续航下值，不把最高速度和最长续航拼成一个工况。</dd><dt>关节与传动</dt><dd>区分执行器输出与关节末端、峰值与连续值，以及已确认型号与选型推断。最大单关节扭矩不代表整机全部轴的额定能力。</dd><dt>图片与配置</dt><dd>图片来自厂商、研究机构或原始论文，并保留来源。部分为产品家族参考图，具体配置和修订版以文字记录为准。</dd></dl><h3>当前版本</h3><p>首版覆盖宇树四足产品线、Spot、ANYmal多个代际、DEEP Robotics、Ghost Robotics，以及MIT、IIT、ETH、ODRI研究平台。旧型号和未公开参数保留空缺。人形与机械臂未混入此四足浏览页。</p><p>实验室 ANYmal 的代际暂未确认，尚未与某条产品记录绑定。</p><div class="method-downloads"><a class="button button-outline" href="data/source-matrix.xlsx" download><span data-icon="download"></span>完整性能矩阵</a><a class="button button-outline" href="data/library.json" download><span data-icon="download"></span>结构化资料 JSON</a></div></div></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>
